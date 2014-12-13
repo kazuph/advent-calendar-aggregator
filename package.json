@@ -1,0 +1,16 @@
+{
+  "name": "advent-calendar-aggregator",
+  "version": "0.0.1",
+  "description": "アドベントカレンダーの集計をするよん",
+  "main": "index.js",
+  "scripts": {
+    "adv": "node index.js"
+  },
+  "author": "kazuph <kazuph@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "async": "^0.9.0",
+    "scraperjs": "^0.3.1"
+  }
+}
