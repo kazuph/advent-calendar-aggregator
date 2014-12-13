@@ -1,6 +1,7 @@
 var scraperjs = require('scraperjs');
 var async = require('async');
 var rest = require('restler');
+var fs = require('fs');
 
 var baseUrl = 'http://qiita.com';
 var hatebuApiUrl = 'http://api.b.st-hatena.com/entry.count';
@@ -50,33 +51,54 @@ function getEntryUrls(theme, callback) {
         })
 }
 
-function getHatebuCount(url, callback) {
-    console.log(url);
+function getHatebuCount(entry, callback) {
     rest.get(hatebuApiUrl, {
         query: {
-            'url': url
+            'url': entry['url']
         }
     }).on('complete', function(data, response) {
-        data ? console.log(data) : console.log(0);
-        // callback(null, data.count);
+        var count = data ? data : 0;
+        callback(null, {
+            day: entry['day'],
+            title: entry['text'],
+            url: entry['url'],
+            count: count
+        });
     });
 }
 
-getHatebuCount('http://developer.hatena.ne.jp/ja/documents/bookmark/apis/getcount');
+function insertHatebuCount(theme, callback) {
+    console.log(theme['themeTitle']);
+    var entries = theme['entries'];
+    async.map(entries,
+        getHatebuCount,
+        function(err, entries) {
+            callback(null, {
+                themeTitle: theme['themeTitle'],
+                entries: entries
+            });
+        });
+}
 
-// async.waterfall(
-//     [
-//         getThemeUrls,
-//         function(themes, callback) {
-//             async.map([
-//                     themes[0],
-//                     themes[1],
-//                 ],
-//                 getEntryUrls,
-//                 function(err, themes) {
-//                     callback(null, themes);
-//                 });
-//         }
-//     ], function(err, results) {
-//         console.log(results);
-//     });
+function asyncMap(ary, iter, callback) {
+    async.map(ary, iter, function(err, results) {
+        callback(null, results);
+    });
+}
+
+async.waterfall(
+    [
+        getThemeUrls,
+        function(results, callback) {
+            asyncMap(results, getEntryUrls, callback);
+        },
+        function(results, callback) {
+            asyncMap(results, insertHatebuCount, callback);
+        }
+    ], function(err, results) {
+        console.log(results);
+        fs.writeFile('results.json', JSON.stringify(results), function(err) {
+            console.log(err);
+        });
+
+    });
