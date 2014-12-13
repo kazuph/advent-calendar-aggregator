@@ -1,7 +1,9 @@
 var scraperjs = require('scraperjs');
 var async = require('async');
+var rest = require('restler');
+
 var baseUrl = 'http://qiita.com';
-var hatebuApiUrl = 'http://api.b.st-hatena.com/entry.count?url=';
+var hatebuApiUrl = 'http://api.b.st-hatena.com/entry.count';
 
 function getThemeUrls(callback) {
     scraperjs.StaticScraper.create(baseUrl + '/advent-calendar/2014')
@@ -21,7 +23,8 @@ function getThemeUrls(callback) {
         })
 }
 
-function getEntryUrls(themeUrl, callback) {
+function getEntryUrls(theme, callback) {
+    var themeUrl = theme['url'];
     scraperjs.StaticScraper.create(baseUrl + themeUrl)
         .scrape(function($) {
             return $(".adventCalendar_calendar_day").map(function() {
@@ -40,23 +43,40 @@ function getEntryUrls(themeUrl, callback) {
                 }
             }).get();
         }, function(entries) {
-            callback(null, entries);
+            callback(null, {
+                themeTitle: theme['title'],
+                entries: entries
+            });
         })
 }
 
-async.waterfall(
-    [
-        getThemeUrls,
-        function(themes, callback) {
-            async.map([
-                    themes[0]['url'],
-                    themes[1]['url'],
-            ],
-                getEntryUrls,
-                function(err, entries) {
-                    callback(null, entries);
-                });
+function getHatebuCount(url, callback) {
+    console.log(url);
+    rest.get(hatebuApiUrl, {
+        query: {
+            'url': url
         }
-    ], function(err, results) {
-        console.log(results);
+    }).on('complete', function(data, response) {
+        data ? console.log(data) : console.log(0);
+        // callback(null, data.count);
     });
+}
+
+getHatebuCount('http://developer.hatena.ne.jp/ja/documents/bookmark/apis/getcount');
+
+// async.waterfall(
+//     [
+//         getThemeUrls,
+//         function(themes, callback) {
+//             async.map([
+//                     themes[0],
+//                     themes[1],
+//                 ],
+//                 getEntryUrls,
+//                 function(err, themes) {
+//                     callback(null, themes);
+//                 });
+//         }
+//     ], function(err, results) {
+//         console.log(results);
+//     });
