@@ -1,6 +1,7 @@
 var scraperjs = require('scraperjs');
 var async = require('async');
 var baseUrl = 'http://qiita.com';
+var hatebuApiUrl = 'http://api.b.st-hatena.com/entry.count?url=';
 
 function getThemeUrls(callback) {
     scraperjs.StaticScraper.create(baseUrl + '/advent-calendar/2014')
@@ -38,19 +39,24 @@ function getEntryUrls(themeUrl, callback) {
                     };
                 }
             }).get();
-        }, function(urls) {
-            callback(null, urls);
+        }, function(entries) {
+            callback(null, entries);
         })
 }
 
 async.waterfall(
     [
-        getThemeUrls
-    ], function(err, themes) {
-        console.log(themes);
-        async.map([themes[0]['url']],
-            getEntryUrls,
-            function(err, urls) {
-                console.log(urls);
-            });
+        getThemeUrls,
+        function(themes, callback) {
+            async.map([
+                    themes[0]['url'],
+                    themes[1]['url'],
+            ],
+                getEntryUrls,
+                function(err, entries) {
+                    callback(null, entries);
+                });
+        }
+    ], function(err, results) {
+        console.log(results);
     });
