@@ -13,7 +13,10 @@
 </head>
 
 <body>
+    <h1>Qiita Advent Calendar 2014 はてブ数集計結果</h1>
     <div id='container'></div>
+    <h2>各テーマ毎の合計</h2>
+    <div class="ct-chart id-all"></div>
     <script id='template' type='text/ractive'>
         {{#themes}}
         <h2>{{title}}</h2>
@@ -25,28 +28,27 @@
         {
             $.getJSON("results.json", function(json)
             {
-                var themes = _.map(json, function(theme,
-                    index, list)
+                var themes = _.map(json, function(theme, index, list)
                 {
-                    var hatebuCounts = _.map(theme[
-                        'entries'], function(
-                        entry, index, list)
-                    {
-                        return entry['count']
-                    })
+                    var hatebuCounts = _.map(theme['entries'],
+                        function(entry, index, list)
+                        {
+                            return entry['count'] + 0;
+                        })
+                    console.log(hatebuCounts);
+                    var hatebuSum = _.reduce(hatebuCounts,
+                        function(memo, num)
+                        {
+                            return 0 + memo + num;
+                        }, 0)
+                    console.log(hatebuSum);
                     return {
                         id: index,
                         title: theme['themeTitle'],
+                        hatebuSum: hatebuSum,
                         chartData:
                         {
-                            labels: [1, 2, 3, 4, 5, 6,
-                                7, 8, 9,
-                                10, 11, 12, 13,
-                                14, 15, 16,
-                                17, 18, 19, 20,
-                                21, 22, 23,
-                                24, 25
-                            ],
+                            labels: _.range(1, 26),
                             series: [
                                 hatebuCounts
                             ]
@@ -73,12 +75,22 @@
                     low: 0,
                     showArea: true
                 };
+                var allData = {
+                    labels: _.map(themes, function(theme)
+                    {
+                        return theme['title']
+                    }),
+                    series: [_.map(themes, function(theme)
+                    {
+                        return theme['hatebuSum']
+                    })]
+                }
+                console.log(allData);
+                new Chartist.Bar('.ct-chart.id-all', allData, option);
                 for (var i = 0; i < json.length; i++)
                 {
-                    new Chartist.Line('.ct-chart.id-' +
-                        themes[i]['id'], themes[i][
-                            'chartData'
-                        ], option);
+                    new Chartist.Bar('.ct-chart.id-' + themes[i]['id'],
+                        themes[i]['chartData'], option);
                 }
 
             });
