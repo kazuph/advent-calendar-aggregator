@@ -1,3 +1,4 @@
+// for scraper
 var scraperjs = require('scraperjs');
 var async = require('async');
 var rest = require('restler');
@@ -102,3 +103,4 @@ async.waterfall(
         });
 
     });
+
