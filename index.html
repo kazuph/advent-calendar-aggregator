@@ -14,9 +14,9 @@
 
 <body>
     <h1>Qiita Advent Calendar 2014 はてブ数集計結果</h1>
-    <div id='container'></div>
     <h2>各テーマ毎の合計</h2>
     <div class="ct-chart id-all"></div>
+    <div id='container'></div>
     <script id='template' type='text/ractive'>
         {{#themes}}
         <h2>{{title}}</h2>
@@ -33,33 +33,37 @@
                     var hatebuCounts = _.map(theme['entries'],
                         function(entry, index, list)
                         {
-                            return entry['count'] + 0;
+                            return parseInt(entry['count'], 10);
                         })
-                    console.log(hatebuCounts);
-                    var hatebuSum = _.reduce(hatebuCounts,
+
+                    var hatebuCountSum = _.reduce(hatebuCounts,
                         function(memo, num)
                         {
-                            return 0 + memo + num;
+                            return memo + num;
                         }, 0)
-                    console.log(hatebuSum);
+
                     return {
                         id: index,
                         title: theme['themeTitle'],
-                        hatebuSum: hatebuSum,
+                        hatebuCountSum: hatebuCountSum,
                         chartData:
                         {
                             labels: _.range(1, 26),
                             series: [
-                                hatebuCounts
-                            ]
+                            {
+                                name: "はてブ数",
+                                data: hatebuCounts
+                            }]
                         }
                     };
                 });
 
-                console.log(json);
-                console.log(themes);
+                themes = _.sortBy(themes, function(theme)
+                {
+                    return theme['hatebuCountSum']
+                }).reverse();
 
-                // レンダリング
+                // HTMLレンダリング
                 var ractive = new Ractive(
                 {
                     el: 'container',
@@ -75,21 +79,27 @@
                     low: 0,
                     showArea: true
                 };
+
+                var allDataLength = 10;
                 var allData = {
-                    labels: _.map(themes, function(theme)
+                    // labels: _.range(1, themes.length + 1),
+                    labels: _.map(themes.slice(0, allDataLength), function(theme)
                     {
                         return theme['title']
                     }),
-                    series: [_.map(themes, function(theme)
+                    series: [_.map(themes.slice(0, allDataLength), function(theme)
                     {
-                        return theme['hatebuSum']
+                        return theme['hatebuCountSum']
                     })]
                 }
-                console.log(allData);
-                new Chartist.Bar('.ct-chart.id-all', allData, option);
+
+                // all
+                new Chartist.Line('.ct-chart.id-all', allData, option);
+
+                // each
                 for (var i = 0; i < json.length; i++)
                 {
-                    new Chartist.Bar('.ct-chart.id-' + themes[i]['id'],
+                    new Chartist.Line('.ct-chart.id-' + themes[i]['id'],
                         themes[i]['chartData'], option);
                 }
 
