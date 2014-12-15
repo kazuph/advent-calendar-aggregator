@@ -6,7 +6,7 @@
         "day": "1",
         "title": "bootstrapのglyphiconみたいなのを自分で作る方法 ",
         "url": "http://b.denkizakana.com/2014/11/bootstrapglyphicon.html",
-        "count": "6"
+        "count": "7"
       },
       {
         "day": "2",
@@ -36,7 +36,7 @@
         "day": "7",
         "title": "Adafruit Trinketを使ってHID（キーボード）を作る ",
         "url": "http://b.denkizakana.com/2014/07/adafruit-trinkethid.html",
-        "count": "3"
+        "count": "4"
       },
       {
         "day": "8",
@@ -48,7 +48,7 @@
         "day": "10",
         "title": "Kickstarterにあったネタ技術 ",
         "url": "http://www.kickstarterfan.com/archives/4307",
-        "count": "3"
+        "count": "4"
       },
       {
         "day": "11",
@@ -60,6 +60,12 @@
         "day": "12",
         "title": "あーのるどしー",
         "url": "http://qiita.com/munepuyo/items/bb6cfc6dac45390b320a",
+        "count": 0
+      },
+      {
+        "day": "13",
+        "title": "【Vim】Vimでソースコードを一行に圧縮する【1円にもならない無駄な技術】",
+        "url": "http://qiita.com/mktakuya/items/bdf8b5368b79dfa3ef73",
         "count": 0
       }
     ]
@@ -107,7 +113,7 @@
         "day": "8",
         "title": "Chromeの検索エンジンの設定を使いこなしていろんなとこから瞬間検索",
         "url": "http://qiita.com/awakia/items/96cd2181ebbd885ff326",
-        "count": "9"
+        "count": "10"
       },
       {
         "day": "9",
@@ -119,13 +125,19 @@
         "day": "10",
         "title": "awkで別ファイルのリストとマッチしている行のみ抽出させる",
         "url": "http://qiita.com/daxanya1/items/ba69685f8dff5591b707",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "13",
         "title": "JSONのSyntaxチェックやDiffを手っ取り早く確認する",
         "url": "http://qiita.com/tuki0918/items/6d00ce55df0240bb51ff",
-        "count": 0
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "Windowsのネットワーク上の共有ファイルでの右クリックが遅い ",
+        "url": "http://blogs.wankuma.com/yaju/archive/2014/12/14/499835.aspx",
+        "count": "1"
       }
     ]
   },
@@ -209,6 +221,12 @@
         "title": "RubyからSoftLayerを操作する（その１）",
         "url": "http://qiita.com/rina0521/items/d98e14de523da4397962",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Softlayer DeviceのpublicNetworkの有効化／無効化について",
+        "url": "http://qiita.com/shimomura/items/0b583eeb9fa43c158847",
+        "count": 0
       }
     ]
   },
@@ -291,6 +309,12 @@
         "title": "Cordova環境構築 ＋ PhoneGap Buildでのビルド ",
         "url": "http://cagecages.com/?p=165",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Monacaについて ",
+        "url": "http://cagecages.com/?p=211",
+        "count": 0
       }
     ]
   },
@@ -343,7 +367,7 @@
         "day": "8",
         "title": "【再掲】 LeapMotionを使ってARやその他諸々をやってみた ",
         "url": "http://tks-yoshinaga.hatenablog.com/entry/2014/12/08/115804",
-        "count": "2"
+        "count": "4"
       },
       {
         "day": "9",
@@ -373,7 +397,7 @@
         "day": "13",
         "title": "Junaio対応コンテンツのモバイルアプリ化 for iOS ",
         "url": "http://drepass.jp/blog/metaio-junaio/junaio-iosapp/",
-        "count": 0
+        "count": "1"
       }
     ]
   },
@@ -457,6 +481,12 @@
         "title": "Azure Media Indexer で動画の字幕検索アプリを作ってみる ",
         "url": "http://gooner.azurewebsites.net/2014/12/13/azure-media-indexer/",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Java API for JSON Processing(JSR 353) を利用してASP.NET と疎通してみる ",
+        "url": "http://normalian.hatenablog.com/entry/2014/12/14/235613",
+        "count": 0
       }
     ]
   },
@@ -473,7 +503,7 @@
         "day": "2",
         "title": "Atomエディタを使い始めたときに知っていると便利なショートカットキーをまとめた",
         "url": "http://qiita.com/knt45/items/86086f910aa125b88739",
-        "count": "1"
+        "count": "2"
       },
       {
         "day": "3",
@@ -491,7 +521,7 @@
         "day": "5",
         "title": "Atomエディタで改行コードを含めて置換する方法",
         "url": "http://qiita.com/hakutoitoi/items/b1be7266d1409c8bad16",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "7",
@@ -598,6 +628,18 @@
         "day": "13",
         "title": "vpmadd52luq",
         "url": "http://qiita.com/tanakmura/items/ef3fd074c7f6d6cb3cdf",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "korw",
+        "url": "http://qiita.com/tanakmura/items/769df42fae80d8139113",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "kortestw",
+        "url": "http://qiita.com/tanakmura/items/609dfa70d6a67fb74b8c",
         "count": 0
       }
     ]
@@ -787,6 +829,12 @@
         "title": "依存の再束縛",
         "url": "http://qiita.com/koriym/items/58f629f1e8cfe3ec0a69",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Application context in BEAR.Sunday ",
+        "url": "http://mackstar.com/blog/application-context-in-bear.sunday",
+        "count": 0
       }
     ]
   },
@@ -821,6 +869,12 @@
         "day": "13",
         "title": "TCP/IPを置き換える? BitPay の Foxtrot について",
         "url": "http://qiita.com/hshimo/items/92b9b5d7494d5a759a8c",
+        "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "Bitcoinプログラミングの入り口 ",
+        "url": "http://blog.nayuta.co/blockchain/2014/12/14/bitcoin%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%81%AE%E5%85%A5%E3%82%8A%E5%8F%A3/",
         "count": "1"
       }
     ]
@@ -973,15 +1027,21 @@
       },
       {
         "day": "12",
-        "title": "Blenderのショートカット１",
+        "title": "Blenderのショートカット（オブジェクトモード/エディットモード共通編）",
         "url": "http://qiita.com/moongears/items/bd99e829808495a4572b",
         "count": 0
       },
       {
         "day": "13",
-        "title": "Blenderのショートカット２",
+        "title": "Blenderのショートカット（オブジェクトモード編）",
         "url": "http://qiita.com/moongears/items/22fb60af732f510ba451",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Blenderのショートカット（エディットモード編）",
+        "url": "http://qiita.com/moongears/items/0a3198a38bac0c2c3746",
+        "count": "1"
       }
     ]
   },
@@ -1081,7 +1141,7 @@
         "day": "3",
         "title": "CakePHP2 アプリケーションを Heroku で動かす設定 ",
         "url": "http://www.1x1.jp/blog/2014/12/cakephp-on-heroku.html",
-        "count": "24"
+        "count": "26"
       },
       {
         "day": "4",
@@ -1129,7 +1189,7 @@
         "day": "11",
         "title": "CakePHP 3のQueryBuilderの使い方をまとめてみた！",
         "url": "http://qiita.com/kozo/items/87dc9f725e71dd742468",
-        "count": "29"
+        "count": "33"
       },
       {
         "day": "12",
@@ -1141,7 +1201,13 @@
         "day": "13",
         "title": "CapistranoでCakePHPのデプロイ時にはまったこと",
         "url": "http://qiita.com/oppara/items/6f6d663f274795544b96",
-        "count": 0
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "Git PUSH時に自動デプロイする CakePHP2編",
+        "url": "http://qiita.com/tomzoh/items/e1ea7eae28f8f0046c2a",
+        "count": "1"
       }
     ]
   },
@@ -1312,6 +1378,24 @@
         "title": "CMake : プロパティ",
         "url": "http://qiita.com/osamu0329/items/3b417f8934688fd186ba",
         "count": "1"
+      },
+      {
+        "day": "13",
+        "title": "CMake: IMPORTEDターゲット",
+        "url": "http://qiita.com/osamu0329/items/3e9868e83d3745b8c8b6",
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "CMake:configure_fileコマンド",
+        "url": "http://qiita.com/osamu0329/items/edc66e2e1b6c96947771",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "CMake: ポリシー",
+        "url": "http://qiita.com/mrk_21/items/7c406e28d4730d1364cd",
+        "count": 0
       }
     ]
   },
@@ -1395,6 +1479,12 @@
         "title": "AppWarpとCubismSDKを使って応援アプリっぽいものを作ってみた",
         "url": "http://qiita.com/mettoboshi/items/1467eea2f4c870e31df8",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "cocos2d-x3.Xでlambdaする ",
+        "url": "http://qiita.com/ikemonn/items/6863e39dca58a1f02b87 ",
+        "count": 0
       }
     ]
   },
@@ -1472,6 +1562,18 @@
         "title": "ATL::CComGITPtrを使ってみる ",
         "url": "http://dev.activebasic.com/egtra/2014/12/12/705/",
         "count": 0
+      },
+      {
+        "day": "13",
+        "title": "STAのメソッド呼び出しを見てみる ",
+        "url": "http://dev.activebasic.com/egtra/2014/12/13/706/",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "MTAのメソッド呼び出しを見てみる ",
+        "url": "http://dev.activebasic.com/egtra/2014/12/14/711/",
+        "count": 0
       }
     ]
   },
@@ -1482,7 +1584,7 @@
         "day": "1",
         "title": "CoreOS の自動アップデートを理解する",
         "url": "http://qiita.com/spesnova/items/38239b2faee209009b09",
-        "count": "3"
+        "count": "4"
       },
       {
         "day": "2",
@@ -1500,7 +1602,7 @@
         "day": "5",
         "title": "はじめてのRocket",
         "url": "http://qiita.com/mopemope/items/9f163e4715a8bb5846e9",
-        "count": "149"
+        "count": "150"
       }
     ]
   },
@@ -1558,7 +1660,7 @@
         "day": "2",
         "title": "ご注文はFont Awesomeですか？ 第1羽「ひと目で尋常でないスライドだと見抜いたよ」",
         "url": "http://qiita.com/izumin5210/items/83839616b149c907c3c3",
-        "count": "2"
+        "count": "3"
       },
       {
         "day": "3",
@@ -1570,7 +1672,7 @@
         "day": "4",
         "title": "Foundationよりcool! 軽量フレームワークPureを紹介",
         "url": "http://qiita.com/zakuro9715/items/ed323fff940dba89e88e",
-        "count": "3"
+        "count": "5"
       },
       {
         "day": "5",
@@ -1612,6 +1714,12 @@
         "day": "12",
         "title": "CSS4で追加される予定のセレクタを紹介するよっ",
         "url": "http://qiita.com/zakuro9715/items/ae0b01a356337d6da3c6",
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "SASSよりもStylusが好きになる５つのポイント",
+        "url": "http://qiita.com/BYODKM/items/c1a51e3cb9884a7d4826",
         "count": 0
       }
     ]
@@ -1683,13 +1791,13 @@
         "day": "11",
         "title": "CaffeでDeep Learning つまずきやすいところを中心に",
         "url": "http://qiita.com/uchihashi_k/items/8333f80529bb3498e32f",
-        "count": "46"
+        "count": "47"
       },
       {
         "day": "12",
         "title": "OpenCL meets FPGA #1 入門編",
         "url": "http://qiita.com/iitaku/items/6c20ebb1099e595f3371",
-        "count": "4"
+        "count": "6"
       },
       {
         "day": "13",
@@ -1922,6 +2030,12 @@
         "count": 0
       },
       {
+        "day": "6",
+        "title": "D言語で構文解析器をつくる(2) セマンティック・アクション編",
+        "url": "http://qiita.com/outlandkarasu@github/items/bd5e55bf34088f63ac11",
+        "count": "2"
+      },
+      {
         "day": "8",
         "title": "PortAudioを使ってD言語で波形を鳴らす",
         "url": "http://qiita.com/ueshita/items/98e6a45d2ab0bda1bd43",
@@ -1949,7 +2063,13 @@
         "day": "13",
         "title": "私は初音ミクに会いたかった",
         "url": "http://qiita.com/ottu/items/a393e5d06c5253b8c724",
-        "count": 0
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "D言語で構文解析器をつくる(1) パーサー・コンビネーター編",
+        "url": "http://qiita.com/outlandkarasu@github/items/b8d85bc5bc0aeafb89bb",
+        "count": "1"
       }
     ]
   },
@@ -1960,7 +2080,7 @@
         "day": "1",
         "title": "【C,C++,Python,JavaScript】EdisonでLチカ",
         "url": "http://qiita.com/yoneken/items/f35848f93ed06d130a5b",
-        "count": "4"
+        "count": "6"
       },
       {
         "day": "2",
@@ -2002,7 +2122,7 @@
         "day": "8",
         "title": "Intel Edisonのスイッチ入力",
         "url": "http://qiita.com/yoneken/items/d72909c5dd686730f8b1",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "9",
@@ -2033,6 +2153,12 @@
         "title": "EdisonでArduinoスケッチとのプロセス間通信",
         "url": "http://qiita.com/xeno1991/items/148c7c8ef3821f293c68",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Intel Edisonに起動スクリプトを登録する",
+        "url": "http://qiita.com/yoneken/items/913ffab8c94cb4b0cadc",
+        "count": "1"
       }
     ]
   },
@@ -2116,6 +2242,12 @@
         "title": "Elixir 実装の Qiita API v2 Client を公開しました",
         "url": "http://qiita.com/ma2ge/items/8645f0e8bbd41e48b84b",
         "count": 0
+      },
+      {
+        "day": "15",
+        "title": "リストの要素からインデックス位置を返す",
+        "url": "http://qiita.com/keithseahus/items/08518c40ae3120aa3cdb",
+        "count": 0
       }
     ]
   },
@@ -2126,7 +2258,7 @@
         "day": "1",
         "title": "Elmとはどんな言語か？その７つの特徴 ",
         "url": "http://doloopwhile.hatenablog.com/entry/2014/12/01/200000",
-        "count": "76"
+        "count": "77"
       },
       {
         "day": "2",
@@ -2186,7 +2318,7 @@
         "day": "12",
         "title": "ElmのNative moduleを書く",
         "url": "http://qiita.com/philopon/items/cbc2066242bac6f66af0",
-        "count": "4"
+        "count": "5"
       },
       {
         "day": "13",
@@ -2275,13 +2407,19 @@
         "day": "13",
         "title": "Erlangで書かれた自作ライブラリ群の紹介",
         "url": "http://qiita.com/sile/items/05e8e1c3bd84dfc01448",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "14",
         "title": "Cowboyにチャレンジ - はじめてのErlang/OTP - ",
         "url": "http://qiita.com/chobie@github/items/042049f6f0a79fba5d3a",
-        "count": 0
+        "count": "2"
+      },
+      {
+        "day": "15",
+        "title": "Erlangのアセンブラと仲良くなる",
+        "url": "http://qiita.com/soranoba/items/2fb6cabeff468f5c71f1",
+        "count": "1"
       },
       {
         "day": "21",
@@ -2364,6 +2502,12 @@
         "day": "13",
         "title": "EspruinoのビルトインLEDをコントロールするクラスを書いた ",
         "url": "http://bathtimefish.hatenablog.com/entry/2014/12/13/162158",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Espruino 人感センサーで動きを検知してみる ",
+        "url": "http://bathtimefish.hatenablog.com/entry/2014/12/14/161305",
         "count": 0
       }
     ]
@@ -2547,6 +2691,12 @@
         "title": "FileMaker Server 13 から変更になったハマりやすいポイントまとめ ",
         "url": "http://www.fairmind.jp/staff/2014/12/13/filemaker-server-13-change-point/",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "FileMaker の Web ビューアに色々なアドレスを表示させてみる ",
+        "url": "http://www.fairmind.jp/staff/2014/12/15/web-viewer-data-uri-scheme/",
+        "count": 0
       }
     ]
   },
@@ -2629,6 +2779,18 @@
         "day": "13",
         "title": "Firebird 3.0 SQL新機能: (4) Secutiry/Monitoring ",
         "url": "http://blog.kimuradb.com/?eid=877397",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Firebird 3.0のSS(Super Server) ",
+        "url": "http://blog.kimuradb.com/?eid=877398",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "Firebirdのパフォーマンス学習のためにTPC-Cを使う ",
+        "url": "http://blog.kimuradb.com/?eid=877399",
         "count": 0
       }
     ]
@@ -2713,6 +2875,18 @@
         "title": "Codeer Friendlyなら何でもできる！ ",
         "url": "http://d.hatena.ne.jp/fkmt5/20141213/1418400469",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "friendlyの功罪 ",
+        "url": "http://posaune.hatenablog.com/entry/2014/12/14/140913",
+        "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "Friendlyって便利 ",
+        "url": "http://yaplog.jp/onigirilove/archive/47;jsessionid=2490ADE36035FFFCB723A35BD447BCAA.ap_mo9",
+        "count": 0
       }
     ]
   },
@@ -2735,7 +2909,7 @@
         "day": "3",
         "title": "【初心者でも】やろうぜGroovy!〜ファイル読み書きしたり、Web APIたたいたり、レスポンスの中身確認したり〜編【今すぐ使える】",
         "url": "http://qiita.com/RyotaMurohoshi/items/3b9be276f40ea0577f60",
-        "count": "45"
+        "count": "46"
       },
       {
         "day": "4",
@@ -2783,7 +2957,19 @@
         "day": "13",
         "title": "GroovyでAWS SDK for Javaを使う ",
         "url": "http://nobusue.hatenablog.com/entry/2014/12/14/003430",
+        "count": "7"
+      },
+      {
+        "day": "14",
+        "title": "Gradle Slashプラグインをリリースしました #gadvent ",
+        "url": "http://int128.hatenablog.com/entry/2014/12/14/162937",
         "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "Groovyを知らない人のためのbuild.gradle読み方書き方入門",
+        "url": "http://qiita.com/opengl-8080/items/a0bb31fb20cb6505188b",
+        "count": "3"
       }
     ]
   },
@@ -2873,6 +3059,12 @@
         "count": "21"
       },
       {
+        "day": "15",
+        "title": "GoogleDriveで社外共有しているユーザーとファイルをGASで取得",
+        "url": "http://qiita.com/nobuhito@github/items/7e47387a22d089ad5bfa",
+        "count": 0
+      },
+      {
         "day": "19",
         "title": "GAS+GoogleCloudSQL+GoogleChartToolsで簡易BIツールを作ってみる",
         "url": "http://qiita.com/TomohiroShigemasa/items/bcc6330aff76acd88cbb",
@@ -2923,7 +3115,7 @@
         "day": "8",
         "title": "Groongaの複数キーのドリルダウンとin_values関数を試してみた",
         "url": "http://qiita.com/naoa/items/4b96eb6f5174aca8c36b",
-        "count": "2"
+        "count": "1"
       },
       {
         "day": "9",
@@ -2953,6 +3145,12 @@
         "day": "13",
         "title": "Droongaで理解する、分散処理の基本のキ：検索クエリの分散と結果の集約",
         "url": "http://qiita.com/piroor/items/47de24ab76ea7ed7c0b1",
+        "count": "2"
+      },
+      {
+        "day": "14",
+        "title": "Grooga on ARM",
+        "url": "http://qiita.com/kenhys/items/e42e943ee49e5105eb4b",
         "count": "1"
       }
     ]
@@ -2964,7 +3162,7 @@
         "day": "1",
         "title": "Improving Parser Performance using SSE Instructions (in case of PicoHTTPParser) ",
         "url": "http://blog.kazuhooku.com/2014/12/improving-parser-performance-using-sse.html",
-        "count": "26"
+        "count": "27"
       },
       {
         "day": "2",
@@ -2976,7 +3174,7 @@
         "day": "3",
         "title": "なぜHTTPSはHTTPより速いのか  ",
         "url": "http://blog.kazuhooku.com/2014/12/httpshttp.html",
-        "count": "541"
+        "count": "546"
       },
       {
         "day": "4",
@@ -3018,7 +3216,7 @@
         "day": "13",
         "title": "C言語で可変長引数をとる関数を、型安全に書く方法 ",
         "url": "http://blog.kazuhooku.com/2014/12/c.html",
-        "count": "140"
+        "count": "199"
       }
     ]
   },
@@ -3087,6 +3285,12 @@
         "title": "Haxeを知らなかった人がちょこっと触ってみた話",
         "url": "http://qiita.com/tksy/items/bf27e05e697a2048a7c3",
         "count": 0
+      },
+      {
+        "day": "13",
+        "title": "HaxeとThreejsで3Dコンテンツを作る 初級編",
+        "url": "http://qiita.com/_nabe/items/cf2ee0ad2bffe524734a",
+        "count": 0
       }
     ]
   },
@@ -3109,7 +3313,7 @@
         "day": "3",
         "title": "在宅勤務始めました ",
         "url": "http://bugrammer.hateblo.jp/entry/2014/12/08/015629",
-        "count": "96"
+        "count": "97"
       },
       {
         "day": "4",
@@ -3168,7 +3372,7 @@
         "day": "7",
         "title": "Rubyに負けるな！HerokuでPython(Django)動かす方法",
         "url": "http://qiita.com/nakazye/items/48651e39f07da82fe79e",
-        "count": "7"
+        "count": "8"
       },
       {
         "day": "8",
@@ -3204,83 +3408,12 @@
         "day": "13",
         "title": "Heroku Dropbox Syncで実現するWeb開発の未来 ",
         "url": "http://t32k.me/mol/log/heroku-dropbox-sync/",
-        "count": "3"
-      }
-    ]
-  },
-  {
-    "themeTitle": "HTML5",
-    "entries": [
-      {
-        "day": "1",
-        "title": "ベタですがhtml5testをやりました ",
-        "url": "http://albatrosary.hateblo.jp/entry/2014/12/01/170626",
-        "count": "3"
+        "count": "28"
       },
       {
-        "day": "2",
-        "title": "滑り込みですが、traceur-compilerで２日目の記事を ",
-        "url": "https://github.com/MSakamaki/AdventCalendar2014/blob/master/HTML5/1202.md",
-        "count": "2"
-      },
-      {
-        "day": "3",
-        "title": "最近気になっているHTML5の最新技術に触れてみました ",
-        "url": "http://albatrosary.hateblo.jp/entry/2014/12/03/072118",
-        "count": "8"
-      },
-      {
-        "day": "4",
-        "title": "【追加】最近気になっているHTML5の最新技術に触れてみました ",
-        "url": "http://albatrosary.hateblo.jp/entry/2014/12/04/080214",
-        "count": "3"
-      },
-      {
-        "day": "5",
-        "title": "W3CとかWHATWGとか歴史とか ",
-        "url": "http://albatrosary.hateblo.jp/entry/2014/12/05/083757",
-        "count": "1"
-      },
-      {
-        "day": "6",
-        "title": "Brick(Web Components)がすごい ",
-        "url": "http://albatrosary.hateblo.jp/entry/2014/12/06/105723",
-        "count": "2"
-      },
-      {
-        "day": "7",
-        "title": "画像を分割もしくは合体させてパフォーマンスは本当に変化するのか? ",
-        "url": "http://takehora.hatenadiary.jp/entry/2014/12/07/232406",
-        "count": "94"
-      },
-      {
-        "day": "8",
-        "title": "レスポンシブってなんだろうか ",
-        "url": "http://pigikuro.tumblr.com/post/104639931655",
-        "count": "1"
-      },
-      {
-        "day": "9",
-        "title": "HTML5 Media Element まとめ",
-        "url": "http://qiita.com/tomoyukilabs/items/bab03e3fc6a78c5bb56a",
-        "count": "1"
-      },
-      {
-        "day": "10",
-        "title": "サンタの安全を考え足下を照らすプログラムを書いてみた",
-        "url": "http://qiita.com/wks/items/564248385b02696b15e3",
-        "count": 0
-      },
-      {
-        "day": "11",
-        "title": "超音波通信やろうとして音の可視化（可聴域の特定周波数の判別など）をやった話【前編】",
-        "url": "http://qiita.com/youtoy/items/3a8395c948db1c40cfae",
-        "count": "4"
-      },
-      {
-        "day": "13",
-        "title": "HTML5のバリデーションを行ってくれるサービス、ソフトウェアまとめ ",
-        "url": "http://blog.htmlhifive.com/2014/12/13/html5-markup-validation-software-and-service/",
+        "day": "14",
+        "title": "東京リージョンさえあれば。。。 ",
+        "url": "http://blog.flect.co.jp/labo/2014/12/post-eae5.html",
         "count": 0
       }
     ]
@@ -3292,7 +3425,7 @@
         "day": "1",
         "title": "HTTP2 のフロー制御",
         "url": "http://qiita.com/Jxck_/items/622162ad8bcb69fa043d",
-        "count": "131"
+        "count": "132"
       },
       {
         "day": "2",
@@ -3304,7 +3437,7 @@
         "day": "3",
         "title": "なぜHTTPSはHTTPより速いのか  ",
         "url": "http://blog.kazuhooku.com/2014/12/httpshttp.html",
-        "count": "541"
+        "count": "546"
       },
       {
         "day": "4",
@@ -3334,7 +3467,7 @@
         "day": "9",
         "title": "WiresharkでHTTP/2をパケットキャプチャする ",
         "url": "http://d.hatena.ne.jp/ASnoKaze/20141208/1418051830",
-        "count": "72"
+        "count": "73"
       },
       {
         "day": "10",
@@ -3358,7 +3491,13 @@
         "day": "13",
         "title": "HTTP2 のプライオリティ制御",
         "url": "http://qiita.com/Jxck_/items/16a5a9e9983e9ea1129f",
-        "count": "3"
+        "count": "4"
+      },
+      {
+        "day": "14",
+        "title": "Chromium の hpack 実装をソースコードリーディング ",
+        "url": "http://kysnm.hatenablog.com/entry/2014/12/14/235335",
+        "count": 0
       }
     ]
   },
@@ -3428,7 +3567,7 @@
         "day": "6",
         "title": "gulp.jsを使ってフロントエンドのビルドをする【webpack, stylus】 ",
         "url": "http://yutapon.hatenablog.com/entry/2014/12/06/123000",
-        "count": "74"
+        "count": "75"
       },
       {
         "day": "7",
@@ -3470,7 +3609,7 @@
         "day": "13",
         "title": "今やってるPBLのこと書きます ",
         "url": "http://yaginuuu.hateblo.jp/entry/2014/12/12/%E3%83%81%E3%83%BC%E3%83%A0%E9%96%8B%E7%99%BA%E3%81%A7%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AE%E3%81%93%E3%81%A8%E8%A9%B1%E3%81%97%E3%81%BE%E3%81%99%E3%80%82",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "14",
@@ -3517,13 +3656,13 @@
         "day": "6",
         "title": "navigator.onLine in Blink ",
         "url": "http://blog.oimou.com/javascript-advent-calendar-2014-6ri-mu-navigator-onlinemaniatukusu2589ed73/",
-        "count": "5"
+        "count": "7"
       },
       {
         "day": "7",
         "title": "webpackを使い倒す ",
         "url": "http://thujikun.github.io/blog/2014/12/07/webpack/",
-        "count": "9"
+        "count": "10"
       },
       {
         "day": "9",
@@ -3535,13 +3674,13 @@
         "day": "10",
         "title": "俺のaltjsがこんなに簡単にpegjsで作れるわけがない",
         "url": "http://qiita.com/h_demon/items/0b1c68f50ae8667cdffd",
-        "count": "53"
+        "count": "52"
       },
       {
         "day": "11",
         "title": "なんかおまえは今まで実行したassertの回数を覚えているのか？あるいは新しいアサーションユーティリティのご提案 ",
         "url": "http://teppeis.hatenablog.com/entry/2014/12/esplan-new-testing-utility-counting-assertoins-statically",
-        "count": "60"
+        "count": "61"
       },
       {
         "day": "12",
@@ -3553,7 +3692,7 @@
         "day": "14",
         "title": "名前が厨二っぽいjsライブラリ3選",
         "url": "http://qiita.com/sisidovski/items/2bb769d9ed0207f69146",
-        "count": 0
+        "count": "15"
       }
     ]
   },
@@ -3589,6 +3728,18 @@
         "title": "1コマンドでJavaアプリをOSvへデプロイ ",
         "url": "http://d.hatena.ne.jp/syuu1228/20141212/1418399731",
         "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "Raspberry Pi (Raspbian) にOracle HotSpotVMを導入する方法",
+        "url": "http://qiita.com/koji_yusa/items/77ed491edd91434e0fd1",
+        "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "お使いのVPSサーバに、メモリが256MBしかなければIBM J9 JVMを入れるといいと思うよ。",
+        "url": "http://qiita.com/koji_yusa/items/afd7573ac51b8563f592",
+        "count": 0
       }
     ]
   },
@@ -3611,7 +3762,7 @@
         "day": "3",
         "title": "Kubernetes Design Overviewを読む その2 ",
         "url": "http://netmark.jp/2014/12/kubernetes-design-overview-2.html",
-        "count": "4"
+        "count": "5"
       },
       {
         "day": "4",
@@ -3647,7 +3798,7 @@
         "day": "9",
         "title": "Kubernetes + flannel + CentOS7 4台でクラスタ構築 ",
         "url": "http://netmark.jp/2014/12/kubernetes-flannel-centos7-4.html",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "10",
@@ -3671,6 +3822,12 @@
         "day": "13",
         "title": "Kubernetesの使い方と使いドコロ ",
         "url": "http://netmark.jp/2014/12/kubernetes-use-point.html",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "統計情報で見るKubernetesの勢い ",
+        "url": "http://netmark.jp/2014/12/stats-kubernetes.html",
         "count": 0
       }
     ]
@@ -3765,7 +3922,13 @@
         "day": "13",
         "title": "Linuxカーネルで見る最適化の技 ",
         "url": "http://kernhack.hatenablog.com/entry/2014/12/13/110556",
-        "count": "4"
+        "count": "9"
+      },
+      {
+        "day": "14",
+        "title": "sched-design-CFS.txtの和訳 ",
+        "url": "http://d.hatena.ne.jp/hiraku_wfs/20141214/1418572909",
+        "count": "2"
       },
       {
         "day": "20",
@@ -3890,6 +4053,12 @@
         "title": "[OAK-2286]Oak supports binaries handling in Solr!  ",
         "url": "https://fisheye6.atlassian.com/changelog/jackrabbit?cs=1641340",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "つぶやく ",
+        "url": "https://twitter.com/kojisays/status/543971187169062913",
+        "count": 0
       }
     ]
   },
@@ -3942,6 +4111,12 @@
         "title": "リアルタイムWebアプリケーションフレームワークMeteorについて",
         "url": "http://qiita.com/abe00makoto/items/cf7a57face7a0e264881",
         "count": "16"
+      },
+      {
+        "day": "14",
+        "title": "meteorでAndroidアプリ動くかどうか試す ",
+        "url": "http://rukiadia.hatenablog.jp/entry/2014/12/14/234120",
+        "count": 0
       }
     ]
   },
@@ -4012,7 +4187,7 @@
         "day": "13",
         "title": "milkcocoaを使ってみた ",
         "url": "http://kou-yeung.hatenablog.com/entry/2014/12/13/112433",
-        "count": 0
+        "count": "2"
       }
     ]
   },
@@ -4095,7 +4270,19 @@
         "day": "13",
         "title": "ocamlの内部のあれこれ ",
         "url": "http://no-maddojp.hatenablog.com/entry/2014/12/12/225630",
-        "count": 0
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "SML with マイコンボード ",
+        "url": "http://d.hatena.ne.jp/keita44_f4/20141214/1418540531",
+        "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "OCamlで信号処理",
+        "url": "http://qiita.com/fukuroder/items/350ef6089f555ec149b3",
+        "count": "3"
       }
     ]
   },
@@ -4130,7 +4317,7 @@
         "day": "5",
         "title": "ISUCON4予選問題をngx_mrubyだけで解いてみた（ノウハウ編）",
         "url": "http://qiita.com/Marcy/items/1a7ab35970c31d169bf8",
-        "count": "22"
+        "count": "23"
       },
       {
         "day": "6",
@@ -4172,13 +4359,25 @@
         "day": "12",
         "title": "mod_mrubyでJWTベースの認証proxyを作る",
         "url": "http://qiita.com/ainoya/items/656aff7df61554f68f87",
-        "count": "3"
+        "count": "5"
       },
       {
         "day": "13",
         "title": "地理情報を使ってmod_mrubyとngx_mrubyでプログラマブルにアクセス制御",
         "url": "http://qiita.com/matsumotory/items/5d9430e2fbda6289ddf8",
         "count": "8"
+      },
+      {
+        "day": "14",
+        "title": "CloudFrontのジオターゲティングをngx_mruby&Redisで判別する ｜ Developers.IO ",
+        "url": "http://dev.classmethod.jp/cloud/cloudfront-geo-ngx_mruby-redis/",
+        "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "mod_mruby を使った Web アプリ",
+        "url": "http://qiita.com/qtakamitsu/items/c066d90e5eec0161934a",
+        "count": "1"
       }
     ]
   },
@@ -4201,7 +4400,7 @@
         "day": "3",
         "title": "MongoDBのメモリの使い方とプレヒーティング",
         "url": "http://qiita.com/fetaro/items/981328c70a31d3d3a26e",
-        "count": "8"
+        "count": "9"
       },
       {
         "day": "4",
@@ -4324,102 +4523,25 @@
         "day": "11",
         "title": "MySQLのGIS拡張2014 ",
         "url": "http://blog.kimuradb.com/?eid=877395",
-        "count": "8"
+        "count": "9"
       },
       {
         "day": "12",
         "title": "activerecord-mysql-awesome - ActiveRecordのMySQL向けパッチのバックポート集",
         "url": "http://qiita.com/kamipo/items/11b55caf329210923a9a",
-        "count": "19"
+        "count": "20"
       },
       {
         "day": "13",
         "title": "MySQLに関する新人研修のカリキュラム概要の紹介",
         "url": "http://qiita.com/saisa6153/items/a2d381a3321854c1d137",
         "count": 0
-      }
-    ]
-  },
-  {
-    "themeTitle": "NetBSD",
-    "entries": [
-      {
-        "day": "1",
-        "title": "NetBSDをVirtualBoxにインストールしてみる",
-        "url": "http://qiita.com/furandon_pig/items/5882ede06b5b5d3bf439",
-        "count": "1"
       },
       {
-        "day": "2",
-        "title": "NetBSDインストール後の環境設定",
-        "url": "http://qiita.com/furandon_pig/items/5479293cb21d6fd9f17c",
-        "count": 0
-      },
-      {
-        "day": "3",
-        "title": "プログラミング環境としてNetBSDを使う話",
-        "url": "http://qiita.com/furandon_pig/items/b1607d8c5bc314c0e31d",
-        "count": 0
-      },
-      {
-        "day": "4",
-        "title": "NetBSD/earmをqemu上で使ってみる ",
-        "url": "http://blog.onodera.asia/2014/12/qemunetbsdearm.html",
-        "count": "2"
-      },
-      {
-        "day": "5",
-        "title": "NetBSDカーネルをビルドしてみる",
-        "url": "http://qiita.com/furandon_pig/items/d9b2782372edc1b93263",
-        "count": 0
-      },
-      {
-        "day": "6",
-        "title": "NetBSDでRaspberryPIを使ってみる ",
-        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/RPI.rst",
-        "count": "4"
-      },
-      {
-        "day": "7",
-        "title": "NetBSDでZAURUSを使ってみる ",
-        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/ZAURUS.rst",
-        "count": 0
-      },
-      {
-        "day": "8",
-        "title": "pkgsrcでソフトウェアをインストールする ",
-        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/pkgsrc.rst",
-        "count": 0
-      },
-      {
-        "day": "9",
-        "title": "NetBSDでWZERO3を使ってみる ",
-        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/WZERO3.rst",
-        "count": 0
-      },
-      {
-        "day": "10",
-        "title": "LUNAの薄い本 ",
-        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/Luna.rst",
-        "count": "1"
-      },
-      {
-        "day": "11",
-        "title": "NetBSD man を HTML 変換したものを公開してみて分かったこと ",
-        "url": "http://www.daemon-systems.org/diary/20141211.html",
-        "count": "1"
-      },
-      {
-        "day": "12",
-        "title": "CAT68701にNetBSDを移植したときの思い出 ",
-        "url": "http://blog.daionet.gr.jp/knok/2014/12/12/cat68701-netbsd/",
-        "count": 0
-      },
-      {
-        "day": "13",
-        "title": "NetBSDで観光ガイドを作ってみる ",
-        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/Paper/sphinx.rst",
-        "count": 0
+        "day": "14",
+        "title": "2014年だけど Q4M の紹介をしてみるよ",
+        "url": "http://qiita.com/ryopeko/items/f42b65a11d7f1f74311e",
+        "count": "97"
       }
     ]
   },
@@ -4448,7 +4570,7 @@
         "day": "4",
         "title": "mod_rewriteを移植するときのコツ ",
         "url": "http://heartbeats.jp/hbblog/2014/12/mod-rewritenginxif.html",
-        "count": "13"
+        "count": "14"
       },
       {
         "day": "5",
@@ -4643,6 +4765,18 @@
         "title": "これでストレスフリー！MacBookと外付けキーボードを同じキーマップで利用する方法",
         "url": "http://qiita.com/toshikimiyagawa/items/87bd0d706e156adcf7c2",
         "count": "1"
+      },
+      {
+        "day": "14",
+        "title": " Macと色々なものをつなげる話。2014",
+        "url": "http://qiita.com/somtd@github/items/44cf43cc4dc6e51690cf",
+        "count": "40"
+      },
+      {
+        "day": "15",
+        "title": "自分がOSXアプリ初心者の域を脱するためにしたこと ",
+        "url": "http://nakajijapan.github.io/blog/2014/12/14/osx-advent-calendar-2014/",
+        "count": "2"
       }
     ]
   },
@@ -4755,6 +4889,12 @@
         "title": "バーチャルロボット設定方法",
         "url": "http://qiita.com/umecco/items/f3748296256d9138baaa",
         "count": 0
+      },
+      {
+        "day": "15",
+        "title": "PepperくんでPoint Cloud",
+        "url": "http://qiita.com/thorikawa/items/a625b4766dcd283b783b",
+        "count": 0
       }
     ]
   },
@@ -4795,7 +4935,7 @@
         "day": "6",
         "title": "Phalconのloggerのメッセージフォーマットのカスタマイズ",
         "url": "http://qiita.com/shun0102/items/33f2d47c0564fe66947e",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "7",
@@ -4837,7 +4977,13 @@
         "day": "13",
         "title": "さくらのレンタルサーバーでPhalcon",
         "url": "http://qiita.com/ryomojp/items/9fadca4605429ef1f6d7",
-        "count": 0
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "PhalconでDBテーブルを動的に指定",
+        "url": "http://qiita.com/ryomojp/items/2261043166ddb0f2e127",
+        "count": "1"
       }
     ]
   },
@@ -5037,7 +5183,7 @@
         "day": "3",
         "title": "Ruboty | BestGems の検索結果を表示する ruboty-bestgems を作成しました #ruboty",
         "url": "http://qiita.com/tbpgr/items/88c644179b1a96f8a389",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "4",
@@ -5103,7 +5249,13 @@
         "day": "14",
         "title": "Rubotyでideoneの採点を行う",
         "url": "http://qiita.com/cielavenir/items/4186c1f4eb440583ce40",
-        "count": 0
+        "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "Ruboty のコードリーディングで Ruboty の仕組みを理解すると共に Ruby の設計・実装の定石を学ぶ #ruboty",
+        "url": "http://qiita.com/tbpgr/items/5887003cd2e69e9d8867",
+        "count": "23"
       }
     ]
   },
@@ -5181,6 +5333,12 @@
         "title": "RubyMineでPowを使いながらDebugする方法",
         "url": "http://qiita.com/spring_aki/items/8319af8ec12b444f167b",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "RubyMineでi18nの文字が自動展開させないようにしたい",
+        "url": "http://qiita.com/t_oginogin/items/ee9e8a699f2799cd1e93",
+        "count": "1"
       }
     ]
   },
@@ -5267,6 +5425,12 @@
         "day": "13",
         "title": "Sails.js(0.10.x)でFacebookログインを実装する",
         "url": "http://qiita.com/KeitaMoromizato/items/183606bc1799706ff309",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Sails.js に定時にバッチ処理を行わせる",
+        "url": "http://qiita.com/oukayuka/items/514b1ba33f21c27565a7",
         "count": 0
       }
     ]
@@ -5357,6 +5521,12 @@
         "title": "Lightningアプリ開発『aura:set』タグについて ",
         "url": "http://tyoshikawa1106.hatenablog.com/entry/2014/12/14/000000",
         "count": 0
+      },
+      {
+        "day": "15",
+        "title": "Lightningアプリ開発『$Browser』で端末判定 ",
+        "url": "http://tyoshikawa1106.hatenablog.com/entry/2014/12/15/000000",
+        "count": 0
       }
     ]
   },
@@ -5427,7 +5597,7 @@
         "day": "11",
         "title": "Selenium Web DriverのPythonバインディングを使ってブラウザを操作する",
         "url": "http://qiita.com/TakesxiSximada/items/dedd81f1da4379f3006e",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "12",
@@ -5444,13 +5614,13 @@
         "day": "2",
         "title": "監視アーキテクチャについてまとめてみる(2014年12月版) ",
         "url": "http://blog.glidenote.com/blog/2014/12/03/monitoring-system-version-dec-2014/",
-        "count": "566"
+        "count": "567"
       },
       {
         "day": "3",
         "title": "Sensu APIとRaspbbery Piとパトランプでリアル警報システムを作る ",
         "url": "http://yume-build.com/blog/archives/392",
-        "count": "40"
+        "count": "42"
       },
       {
         "day": "4",
@@ -5510,7 +5680,7 @@
         "day": "14",
         "title": "chef-solo で始める sensu-client for Windows",
         "url": "http://qiita.com/inokappa/items/163a3716cad991c5665b",
-        "count": "1"
+        "count": "2"
       },
       {
         "day": "15",
@@ -5522,7 +5692,7 @@
         "day": "17",
         "title": "Raspberry Pi で sensu-client を動かすまでのメモ",
         "url": "http://qiita.com/inokappa/items/fe556e166dc532e6c198",
-        "count": "2"
+        "count": "3"
       },
       {
         "day": "22",
@@ -5548,6 +5718,12 @@
         "count": "2"
       },
       {
+        "day": "3",
+        "title": "ストック型サービスの入り口としてのSlack(Trelloとの連携)",
+        "url": "http://qiita.com/KeitaMoromizato/items/8d56951f7e6fa57f9a93",
+        "count": 0
+      },
+      {
         "day": "7",
         "title": "slackの★をタスクリストとして使う",
         "url": "http://qiita.com/sue738/items/8b1904abdaa40b111611",
@@ -5557,7 +5733,7 @@
         "day": "8",
         "title": "Slack を日米全社員で使っている話",
         "url": "http://qiita.com/mach/items/a1477ff0c66aa65c6ac4",
-        "count": "94"
+        "count": "96"
       },
       {
         "day": "10",
@@ -5569,7 +5745,7 @@
         "day": "11",
         "title": "Slack で役に立たない bot を運用するときの知見 ",
         "url": "http://mint.hateblo.jp/entry/2014/12/11/233922",
-        "count": "83"
+        "count": "87"
       },
       {
         "day": "12",
@@ -5581,7 +5757,7 @@
         "day": "13",
         "title": "SlackとIRCを相互リレーする話",
         "url": "http://qiita.com/sifue/items/4fd6efee608da0cc849d",
-        "count": "1"
+        "count": "2"
       },
       {
         "day": "14",
@@ -5590,16 +5766,16 @@
         "count": "1"
       },
       {
+        "day": "15",
+        "title": "twitterのつぶやきをSlackにポストする方法とそのメリット",
+        "url": "http://qiita.com/KeitaMoromizato/items/8fb4ece2a76ee6dda2a8",
+        "count": 0
+      },
+      {
         "day": "16",
         "title": "Slack に Ruby 製 Bot の Lita を参加させる",
         "url": "http://qiita.com/misogi@github/items/14ab615e0cd4e0af9c66",
         "count": 0
-      },
-      {
-        "day": "23",
-        "title": "ChatOps( Slack / Hubot / Docker )で検証環境をポンポン作って、ポンポン捨てる",
-        "url": "http://qiita.com/s-kiriki/items/501c08d22827def4ec9f",
-        "count": "1"
       }
     ]
   },
@@ -5682,7 +5858,7 @@
         "day": "13",
         "title": "tODE つまみ食い",
         "url": "http://qiita.com/tetha/items/46139d8dff954c693766",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "14",
@@ -5790,7 +5966,7 @@
         "day": "9",
         "title": "ゼロからはじめた統計のお勉強の軌跡（おすすめテキスト編）",
         "url": "http://qiita.com/hiroponius/items/a5271a2f4a7b0d0830d6",
-        "count": "81"
+        "count": "80"
       },
       {
         "day": "10",
@@ -5815,6 +5991,18 @@
         "title": "最近学んだアジャイル開発についてのまとめと推察 ",
         "url": "http://yaplog.jp/maayaj37/archive/52",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "アウェイ感満載のセミナーで学んできたこと ",
+        "url": "http://fanblogs.jp/lilyshiitake/archive/22/0",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "土木の世界からインターネット業界に転身した女性として思うこと",
+        "url": "http://qiita.com/okaneya/items/1834810d9ba236c12562",
+        "count": "7"
       }
     ]
   },
@@ -5870,6 +6058,12 @@
         "count": 0
       },
       {
+        "day": "9",
+        "title": "Write Yourself a Theorem Prover in 48 Hours (その4)",
+        "url": "http://qiita.com/kikx/items/c7e697a14b2043fd53b1",
+        "count": "1"
+      },
+      {
         "day": "10",
         "title": "Coq で Setoid を作る。 ",
         "url": "http://mathink.net/program/coq_setoid.html",
@@ -5885,6 +6079,12 @@
         "day": "12",
         "title": "Isabelle入門の入門",
         "url": "http://qiita.com/myuon_myon/items/11bb5bfc2e274fdaea7c",
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "TPPmark2014のAgda版解説",
+        "url": "http://qiita.com/masahiro_sakai/items/ecd83bad7ac8425f22a3",
         "count": 0
       }
     ]
@@ -5926,7 +6126,7 @@
         "day": "8",
         "title": "[tmlib.js]tmlibで学ぶ、イベント駆動型のクラス設計",
         "url": "http://qiita.com/omatoro/items/ce5a21596ba5a5745fc0",
-        "count": "10"
+        "count": "11"
       },
       {
         "day": "9",
@@ -5939,6 +6139,18 @@
         "title": "tmlib.jsのここがすごい!",
         "url": "http://qiita.com/simiraaaa/items/99b10ade4c8a5d13b3c9",
         "count": "29"
+      },
+      {
+        "day": "14",
+        "title": "昔作ったゲームをJSっぽくリファクタリングした結果【tmlib.js】",
+        "url": "http://qiita.com/varmil/items/a01101bb7570bc8c38fd",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "tmlib-rpg の紹介のみ",
+        "url": "http://qiita.com/YFukuyama/items/b4b59db55309df6b7118",
+        "count": 0
       },
       {
         "day": "17",
@@ -5962,6 +6174,12 @@
         "title": "Treasure Dataのデータインポート方法一覧",
         "url": "http://qiita.com/repeatedly/items/d00beb89e30edcb533a6",
         "count": "3"
+      },
+      {
+        "day": "3",
+        "title": "データ解析を簡単に 〜 スキーマ管理の権限移譲",
+        "url": "http://qiita.com/kzk9/items/eb597306dc9b58141459",
+        "count": 0
       },
       {
         "day": "4",
@@ -5994,10 +6212,22 @@
         "count": "9"
       },
       {
+        "day": "10",
+        "title": "Treasure DataのPlazmaDBを理解する",
+        "url": "http://qiita.com/xerial/items/959d2b928353b595f31e",
+        "count": "10"
+      },
+      {
         "day": "12",
         "title": "エラーの可視化を捗らせよう",
         "url": "http://qiita.com/chobie@github/items/24ff2627fa52c08d894a",
-        "count": "2"
+        "count": "3"
+      },
+      {
+        "day": "14",
+        "title": "大規模データを確実にMySQL/Redshiftに入れる—Treasure Dataのクエリ結果書き出し機能の実装",
+        "url": "http://qiita.com/frsyuki/items/7230194e31eafe282c5b",
+        "count": "45"
       }
     ]
   },
@@ -6068,7 +6298,7 @@
         "day": "11",
         "title": "mrubyでブートローダを書けるようにしました ",
         "url": "http://d.hatena.ne.jp/syuu1228/20141212/1418407109",
-        "count": "44"
+        "count": "53"
       },
       {
         "day": "13",
@@ -6143,7 +6373,7 @@
         "day": "12",
         "title": "git subtreeを駆使して最強のUnityゲーム開発環境を作るぞっ!! ",
         "url": "http://takashicompany.hatenablog.com/entry/2014/12/12/130846",
-        "count": "2"
+        "count": "3"
       },
       {
         "day": "13",
@@ -6155,6 +6385,12 @@
         "day": "14",
         "title": "標準のシェーダーを改造しよう！　DecalShaderを２枚から３枚にしてみよう",
         "url": "http://qiita.com/enpel/items/e88e8d97490ec618c630",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "AssetBundleを高速に作る",
+        "url": "http://qiita.com/sassembla@github/items/d51b8b7b772a09011b69",
         "count": 0
       }
     ]
@@ -6226,7 +6462,7 @@
         "day": "11",
         "title": "UE4で使えるプラグインいろいろ紹介 ",
         "url": "http://unrealengine.hatenablog.com/entry/2014/12/11/095943",
-        "count": "9"
+        "count": "10"
       },
       {
         "day": "12",
@@ -6238,6 +6474,12 @@
         "day": "13",
         "title": "とりとめなく、マテリアルを色々作成してみた ",
         "url": "http://monsho.blog63.fc2.com/blog-entry-148.html",
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "ボーンのソケットを使ったプロップの接続と、物理演算を使用したニコニコ立体さんの髪の揺らし方 ",
+        "url": "https://www.youtube.com/watch?v=wEAnGyHIwtM&list=PL42VZspg9uttL8JCu4yOlZ_ZlavFfLxJn",
         "count": 0
       }
     ]
@@ -6249,7 +6491,7 @@
         "day": "1",
         "title": "なぜ仮想DOMという概念が俺達の魂を震えさせるのか",
         "url": "http://qiita.com/mizchi/items/4d25bc26def1719d52e6",
-        "count": "486"
+        "count": "487"
       },
       {
         "day": "2",
@@ -6279,7 +6521,7 @@
         "day": "6",
         "title": "segmentio/dekuのコード読んで自分でも仮想DOMのdiffアルゴリズムを書いてみた",
         "url": "http://qiita.com/mizchi/items/d21bb598156821131b8c",
-        "count": "12"
+        "count": "13"
       },
       {
         "day": "7",
@@ -6297,7 +6539,7 @@
         "day": "9",
         "title": "segmentio/dekuのコードリーディング ",
         "url": "http://efcl.info/2014/12/09/deku-codereading/",
-        "count": "15"
+        "count": "16"
       },
       {
         "day": "10",
@@ -6309,13 +6551,19 @@
         "day": "12",
         "title": "仮想 DOM が素晴らしいのはわかってるけどリアルDOMのことも忘れないでね。 ",
         "url": "http://steps.dodgson.org/b/2014/12/11/why-is-real-dom-slow/",
-        "count": "435"
+        "count": "461"
       },
       {
         "day": "13",
         "title": "Ractive.js の紹介 ",
         "url": "http://www.kaoriya.net/blog/2014/12/13/",
-        "count": "1"
+        "count": "99"
+      },
+      {
+        "day": "14",
+        "title": "React.jsのチュートリアルを触る",
+        "url": "http://qiita.com/tomato360/items/75e485d0aefe12a837a4",
+        "count": "2"
       }
     ]
   },
@@ -6369,6 +6617,12 @@
         "title": "VB.NETでのDLRと遅延バインディングの関係 ",
         "url": "http://stknohg.hatenablog.jp/entry/2014/12/13/122404",
         "count": 0
+      },
+      {
+        "day": "15",
+        "title": "Visual Basic 2015以降の新機能 その3 ",
+        "url": "http://blogs.wankuma.com/yaju/archive/2014/12/15/499853.aspx",
+        "count": 0
       }
     ]
   },
@@ -6397,83 +6651,6 @@
         "day": "13",
         "title": "vue-validatorをv0.11のVue.jsに対応した ",
         "url": "http://blog.kazupon.jp/post/105014520518/vue-validator-v0-11-vue-js",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "themeTitle": "VVVV",
-    "entries": [
-      {
-        "day": "1",
-        "title": "ビジュアルプログラミング言語「vvvv」をはじめよう！",
-        "url": "http://qiita.com/yhy_jp/items/4b4d8841842c17943ca1",
-        "count": "7"
-      },
-      {
-        "day": "2",
-        "title": "MIDI入門です。 ",
-        "url": "http://design-ambience.com/wordpress/?p=590",
-        "count": 0
-      },
-      {
-        "day": "3",
-        "title": "vvvvのブログ記事の書き方！ ",
-        "url": "http://junky-inc.blogspot.jp/2014/12/advent-calendar-day3vvvvvlogvvvv.html",
-        "count": 0
-      },
-      {
-        "day": "4",
-        "title": "【vvvv Advvvvent Calendar 2014】めくるめくポストフェクト！Filterの使い方",
-        "url": "http://qiita.com/hurafula/items/0c1fa29b44dcccb7b8ab",
-        "count": 0
-      },
-      {
-        "day": "6",
-        "title": "vvvv では常に Spreads を意識しよう",
-        "url": "http://qiita.com/yhy_jp/items/d5604a15eef806a7d0d0",
-        "count": 0
-      },
-      {
-        "day": "7",
-        "title": "Kontrolleurとタブレットを使ってみる",
-        "url": "http://qiita.com/monshichi/items/199050a429f5fbe9ef7f",
-        "count": 0
-      },
-      {
-        "day": "8",
-        "title": "vvvv 講座動画の作り方",
-        "url": "http://qiita.com/yhy_jp/items/b6eaa066110838284c83",
-        "count": 0
-      },
-      {
-        "day": "9",
-        "title": "vvvvでOSCを使おうとしてみます。 ",
-        "url": "http://design-ambience.com/wordpress/?p=615&preview=true",
-        "count": 0
-      },
-      {
-        "day": "11",
-        "title": "DX11RendererからDX9Rendererに書き出したい",
-        "url": "http://qiita.com/Junky_Inc/items/4350be928f3a5de349f1",
-        "count": 0
-      },
-      {
-        "day": "12",
-        "title": "LeapMotionで遊ぶ！",
-        "url": "http://qiita.com/Junky_Inc/items/c7d87883b3571dfcfb63",
-        "count": 0
-      },
-      {
-        "day": "13",
-        "title": "vvvv でシェーダの入門をしよう！",
-        "url": "http://qiita.com/yhy_jp/items/db7ea5e0f98e8ff0820a",
-        "count": 0
-      },
-      {
-        "day": "18",
-        "title": "そんなことよりVJしようぜ！！！",
-        "url": "http://qiita.com/onomuta/items/184211013400f7381eeb",
         "count": 0
       }
     ]
@@ -6546,6 +6723,12 @@
         "title": "コネタ、VyOS 1.1.0で導入された二つのコマンド ",
         "url": "https://gist.github.com/hiroyuki-sato/f9d467fc99d820555890",
         "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "StaticRoutingで簡単にsite-to-siteVPN冗長化",
+        "url": "http://qiita.com/Yaggytter/items/7cb4309742aa56ec9c3e",
+        "count": 0
       }
     ]
   },
@@ -6622,7 +6805,7 @@
         "day": "14",
         "title": "物理演算で何か落下させたいと思います ",
         "url": "http://cx20.hatenablog.com/entry/2014/12/13/230112",
-        "count": "2"
+        "count": "6"
       }
     ]
   },
@@ -6716,7 +6899,7 @@
         "day": "7",
         "title": "WebRTCのデータチャネル解説",
         "url": "http://qiita.com/udonchan/items/7f5ffa9e8982ae1636c3",
-        "count": "56"
+        "count": "57"
       },
       {
         "day": "8",
@@ -6746,19 +6929,31 @@
         "day": "12",
         "title": "WebRTCにて(S)RTCPが必要な理由 ",
         "url": "http://iwashi.co/2014/12/12/why-do-we-need-rtcp-in-webrtc/",
-        "count": "22"
+        "count": "25"
       },
       {
         "day": "13",
         "title": "WebRTCで簡単動画配信(仮)・・・への道のり ",
         "url": "http://komarineko.net/?p=148",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "14",
         "title": "TURN-TCP (TCP to UDP) について",
         "url": "http://qiita.com/voluntas/items/fd5d633a10272720978d",
+        "count": "2"
+      },
+      {
+        "day": "15",
+        "title": "Mac版Chromeで、Firewallが越えられない話",
+        "url": "http://qiita.com/massie_g/items/08fd4eeaaec7c8749330",
         "count": "1"
+      },
+      {
+        "day": "23",
+        "title": " WebRTCにおけるNAT越えの課題へのアプローチ ",
+        "url": "http://qiita.com/udonchan/items/693e43b13269207f904a",
+        "count": 0
       }
     ]
   },
@@ -6835,7 +7030,7 @@
         "day": "12",
         "title": "タグを連番で複製するにはEmmetが便利",
         "url": "http://qiita.com/volkuwabara/items/bba4ccd8ca8a87e0f946",
-        "count": 0
+        "count": "1"
       }
     ]
   },
@@ -6870,7 +7065,7 @@
         "day": "5",
         "title": "超初心者プログラミング入門は「何」をやるべきか、主にPHPの場合。 ",
         "url": "http://uzulla.hateblo.jp/entry/2014/12/05/061019",
-        "count": "376"
+        "count": "391"
       },
       {
         "day": "6",
@@ -6894,7 +7089,7 @@
         "day": "9",
         "title": "フレームワーク使ってますか？ ",
         "url": "http://yusuke.be/post/104387297304",
-        "count": "58"
+        "count": "59"
       },
       {
         "day": "10",
@@ -6906,19 +7101,25 @@
         "day": "11",
         "title": "手順で議論白熱？ ",
         "url": "http://www.koemu.com/blog/2014/12/11/procedure-manual/",
-        "count": "2"
+        "count": "4"
       },
       {
         "day": "12",
         "title": "PHPだってアプリたい！ - Webアプリエンジニア養成読本 AdventCalendar2014 12日目 ",
         "url": "http://uzulla.hateblo.jp/entry/2014/12/12/235020",
-        "count": "7"
+        "count": "9"
       },
       {
         "day": "13",
         "title": "IT インフラエンジニアに Web アプリエンジニア養成読本をオススメする n 個の理由 (n = 6) ",
         "url": "http://rrreeeyyy.com/blog/2014/12/13/webapp/",
-        "count": "5"
+        "count": "24"
+      },
+      {
+        "day": "14",
+        "title": "コミュニティに参加してつまづき最小限、学び最大限に - Webアプリエンジニア養成読本 AdventCalendar2014 14日目 ",
+        "url": "http://uzulla.hateblo.jp/entry/2014/12/14/230907",
+        "count": "2"
       }
     ]
   },
@@ -6947,6 +7148,12 @@
         "day": "8",
         "title": "PhpStorm. ",
         "url": "http://qiita.com/kimama1997/items/608672328f92901576c8?",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Ansible と wp-cli で WordPress の構築を自動化してみた話",
+        "url": "http://qiita.com/youcune/items/c15a44d9b483f96fa9d3",
         "count": 0
       }
     ]
@@ -7000,7 +7207,7 @@
         "day": "9",
         "title": "Sensu と Graphite による大規模インフラの監視 ",
         "url": "http://techblog.yahoo.co.jp/operation/2014-sensu-and-graphite/",
-        "count": "162"
+        "count": "163"
       },
       {
         "day": "10",
@@ -7012,19 +7219,19 @@
         "day": "11",
         "title": "リアルタイム検索アプリでの通知の取り組み ",
         "url": "http://techblog.yahoo.co.jp/android/realtime-push-notification/",
-        "count": "45"
+        "count": "46"
       },
       {
         "day": "12",
         "title": "デザイナー必見！　Xcodeで動くモックを作ろう ",
         "url": "http://techblog.yahoo.co.jp/ios/xcode-mock-for-designer/",
-        "count": "88"
+        "count": "106"
       },
       {
         "day": "13",
         "title": "となりの非エンジニアにもうまく伝えたい系エンジニアのコミュニケーション術 ",
         "url": "http://techblog.yahoo.co.jp/team_development/non-engineer-engineer-communication/",
-        "count": "39"
+        "count": "70"
       }
     ]
   },
@@ -7046,7 +7253,7 @@
         "day": "1",
         "title": "Yii2がきたぞ！ヤァヤァヤァ！",
         "url": "http://qiita.com/crifff/items/ec170286fc5f241b60bc",
-        "count": "8"
+        "count": "9"
       },
       {
         "day": "2",
@@ -7112,7 +7319,7 @@
         "day": "12",
         "title": "Yii2でちょろいOAuthログイン",
         "url": "http://qiita.com/crifff/items/cfbe54fbed39719a6cf8",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "13",
@@ -7147,7 +7354,7 @@
         "day": "3",
         "title": "ディレクトリ移動など ",
         "url": "http://syui.github.io/blog/2014/12/02/zsh/",
-        "count": "6"
+        "count": "7"
       },
       {
         "day": "4",
@@ -7189,7 +7396,7 @@
         "day": "10",
         "title": "man見まくっているヘタレ行為をzshのコマンド履歴に入れない方法",
         "url": "http://qiita.com/cat-in-136/items/198d215c02efbc3dfdbe",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "11",
@@ -7201,7 +7408,7 @@
         "day": "12",
         "title": "zshでkillコマンドをプロセス名から補完する",
         "url": "http://qiita.com/mollifier/items/33bda290fe3c0ae7b3bb",
-        "count": "3"
+        "count": "4"
       },
       {
         "day": "13",
@@ -7213,13 +7420,13 @@
         "day": "14",
         "title": "zshで真っ黒な世界がカラフルに色づく話 ",
         "url": "http://hotolab.net/blog/zsh_colorful/",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "23",
         "title": "zshの設定ファイルの構成",
         "url": "http://qiita.com/ryuone/items/4fe8180a9d793b2da7ad",
-        "count": 0
+        "count": "1"
       }
     ]
   },
@@ -7236,7 +7443,7 @@
         "day": "2",
         "title": "「速く回す人」と「少なく回す人」 ",
         "url": "http://a-suenami.hatenablog.com/entry/2014/12/02/215658",
-        "count": "123"
+        "count": "124"
       },
       {
         "day": "3",
@@ -7254,13 +7461,13 @@
         "day": "5",
         "title": "KPIアンチパターン ",
         "url": "http://shinsemiya.hatenadiary.jp/entry/2014/12/05/174906",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "6",
         "title": "集中力の維持時間と休憩の重要さ ",
         "url": "http://shinsemiya.hatenadiary.jp/entry/2014/12/05/174906",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "8",
@@ -7278,13 +7485,19 @@
         "day": "10",
         "title": "ポエムを書きました ",
         "url": "http://a-suenami.hatenablog.com/entry/2014/12/10/114822",
-        "count": "4"
+        "count": "5"
       },
       {
         "day": "12",
         "title": "アジャイルまわりで最近学んだこと",
         "url": "http://qiita.com/iyoda/items/bd3323ff0ba2cfdadbf0",
         "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "会社でアジャイルを導入した話。失敗編 ",
+        "url": "http://trtraki.hatenablog.com/entry/2014/12/14/231321",
+        "count": 0
       }
     ]
   },
@@ -7356,6 +7569,12 @@
         "title": "逆転オブジェクト指向入門",
         "url": "http://qiita.com/tomooda/items/3f6dd4262eb7ff3434ca",
         "count": 0
+      },
+      {
+        "day": "13",
+        "title": "文字列がオブジェクトであるとは、こういうことだーッ！（ぼかーん",
+        "url": "http://qiita.com/tomooda/items/f5a09bdac0a83eb480eb",
+        "count": 0
       }
     ]
   },
@@ -7376,7 +7595,7 @@
         "day": "3",
         "title": "Webスクレイピングの法律周りの話をしよう！",
         "url": "http://qiita.com/nezuq/items/3cc9772118ad112c18dc",
-        "count": "244"
+        "count": "245"
       },
       {
         "day": "4",
@@ -7388,7 +7607,7 @@
         "day": "5",
         "title": "Ruby+Nokogiriでスクレイピング ",
         "url": "http://blog.takuros.net/entry/2014/12/05/061034",
-        "count": "85"
+        "count": "86"
       },
       {
         "day": "6",
@@ -7400,7 +7619,7 @@
         "day": "7",
         "title": "Pythonでクローリング・スクレイピングに使えるライブラリいろいろ ",
         "url": "http://orangain.hatenablog.com/entry/scraping-in-python",
-        "count": "341"
+        "count": "350"
       },
       {
         "day": "8",
@@ -7424,13 +7643,19 @@
         "day": "12",
         "title": "クローラーをデーモンとして動かす ― Scrapyd ",
         "url": "http://orangain.hatenablog.com/entry/scrapyd",
-        "count": "2"
+        "count": "5"
       },
       {
         "day": "13",
         "title": "シェルスクリプトで並ばずお寿司",
         "url": "http://qiita.com/gg_hatano/items/c4e2b8e32a1693146c11",
-        "count": "1"
+        "count": "4"
+      },
+      {
+        "day": "14",
+        "title": "Lambdaで作るクローラー／スクレイピング ",
+        "url": "http://blog.takuros.net/entry/2014/12/14/053606",
+        "count": "103"
       }
     ]
   },
@@ -7514,6 +7739,12 @@
         "title": "俺の秘蔵のHMDメガネ＆NEXUS5 IN or OUT クロスレビュー",
         "url": "http://qiita.com/divideby_zero/items/29a8efab072987c4bf7b",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Google CardboardSDK を使ってみた ",
+        "url": "http://wakasoftware.blogspot.jp/2014/12/google-cardboardsdk.html",
+        "count": 0
       }
     ]
   },
@@ -7537,6 +7768,12 @@
         "title": "Excelを使わない技術 - 正しい神の殺し方 ",
         "url": "http://koduki.hatenablog.com/entry/2014/12/13/224152",
         "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "2014年版RStudioを使った文書作成法",
+        "url": "http://qiita.com/uri/items/5cce4431ad0d96b96689",
+        "count": "2"
       }
     ]
   },
@@ -7619,7 +7856,13 @@
         "day": "13",
         "title": "パッケージ開発のPLとして考えてたこと",
         "url": "http://qiita.com/kiminaris/items/de6d992e115806c94ca7",
-        "count": 0
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "それでもExcelを読み書きせざるをえない人のために",
+        "url": "http://qiita.com/enk/items/3ac7e10eb3c21b309ddd",
+        "count": "1"
       }
     ]
   },
@@ -7691,6 +7934,12 @@
         "title": "プロ生ちゃんで学ぶ データ バインディング  ",
         "url": "http://kazuakix.hatenablog.jp/entry/2014/12/14/002632",
         "count": 0
+      },
+      {
+        "day": "15",
+        "title": "Unreal Engine4でプロ生ちゃん ",
+        "url": "http://unrealengine.hatenablog.com/entry/2014/12/15/000000",
+        "count": 0
       }
     ]
   },
@@ -7743,6 +7992,12 @@
         "day": "12",
         "title": "camlup ",
         "url": "http://jsdo.it/h_sakurai/82lO",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Tao3Dの基幹にある謎の言語XLRに迫る",
+        "url": "http://qiita.com/mandel59/items/44ffe2857bcb530c8b5f",
         "count": 0
       }
     ]
@@ -7826,7 +8081,13 @@
         "day": "13",
         "title": "[iOS] UIAlertController の UITextField で文字入力があるまでボタンを押せないようにする",
         "url": "http://qiita.com/magickworx/items/f2750d82ceef03d8aa62",
-        "count": "1"
+        "count": "3"
+      },
+      {
+        "day": "14",
+        "title": "[iOS] MPMusicPlayerController を利用する際の注意点",
+        "url": "http://qiita.com/magickworx/items/df07706f50c9c94d4fa2",
+        "count": "2"
       }
     ]
   },
@@ -7837,13 +8098,13 @@
         "day": "1",
         "title": "例外入門以前",
         "url": "http://qiita.com/Kokudori/items/3a953c00012408f76ab9",
-        "count": "292"
+        "count": "293"
       },
       {
         "day": "2",
         "title": "例外安全と例外中立",
         "url": "http://qiita.com/Kokudori/items/987073d59529b6c9a37c",
-        "count": "67"
+        "count": "68"
       },
       {
         "day": "3",
@@ -7861,7 +8122,7 @@
         "day": "5",
         "title": "検査例外再考",
         "url": "http://qiita.com/Kokudori/items/0fe9181d8eec8d933c98",
-        "count": "11"
+        "count": "12"
       }
     ]
   },
@@ -7945,6 +8206,12 @@
         "title": "ソフトウェア情報学研究科に社会人入学した大学院生が独断と偏見で選ぶおもしろかった講義ベスト3",
         "url": "http://qiita.com/isseium/items/ee723a16f43ef5336fab",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "TextFieldからフォーカスを外したい",
+        "url": "http://qiita.com/te2ka/items/906ad770dfb7d52e20a9",
+        "count": 0
       }
     ]
   },
@@ -7961,7 +8228,7 @@
         "day": "2",
         "title": "Web制作者でもネイティブアプリが作れる！node-webkitを使ってみよう。 ",
         "url": "http://liginc.co.jp/web/programming/node-js/129596",
-        "count": "96"
+        "count": "95"
       },
       {
         "day": "3",
@@ -8009,7 +8276,7 @@
         "day": "10",
         "title": "Web初心者でもGoogle Mapsをカスタマイズできるgmaps.jsでAPIを使い倒そう！ ",
         "url": "http://liginc.co.jp/web/programming/server/132459",
-        "count": "88"
+        "count": "90"
       },
       {
         "day": "11",
@@ -8079,7 +8346,7 @@
         "day": "12",
         "title": "Docker registryのwebビューワTankerの紹介",
         "url": "http://qiita.com/ainoya/items/6c976a817f986dd0d223",
-        "count": "2"
+        "count": "3"
       },
       {
         "day": "13",
@@ -8091,6 +8358,12 @@
         "day": "14",
         "title": "Programmableなproxyで試すOrchestration Layer",
         "url": "http://qiita.com/ainoya/items/85744c7baf4ef6999e04",
+        "count": "9"
+      },
+      {
+        "day": "15",
+        "title": "SubversionからGitへの移行でチーム影響を最小限にする",
+        "url": "http://qiita.com/mookjp/items/7d6ac31521a671f8b806",
         "count": "1"
       }
     ]
@@ -8214,7 +8487,7 @@
         "day": "3",
         "title": "とにかくデバッグだ!!",
         "url": "http://qiita.com/kazy/items/252bfc2d88d8899a95d5",
-        "count": "63"
+        "count": "64"
       },
       {
         "day": "4",
@@ -8226,7 +8499,7 @@
         "day": "5",
         "title": "天下一「AndroidのORM」武道会",
         "url": "http://qiita.com/pside/items/ba7f8fcbd304d702eda6",
-        "count": "11"
+        "count": "12"
       },
       {
         "day": "6",
@@ -8244,13 +8517,13 @@
         "day": "8",
         "title": "RxAndroid でスクリーンセーバー的な機能を作る",
         "url": "http://qiita.com/amay077/items/9d169ff3493e827762bc",
-        "count": "11"
+        "count": "12"
       },
       {
         "day": "9",
         "title": "Material design / Shadow をより Shadow に",
         "url": "http://qiita.com/ShogoMizumoto/items/38ec4adba519c2977e2a",
-        "count": "6"
+        "count": "7"
       },
       {
         "day": "10",
@@ -8268,13 +8541,19 @@
         "day": "12",
         "title": "Android TV入門",
         "url": "http://qiita.com/hotchemi/items/7e929fb8bbdab64caff7",
-        "count": "7"
+        "count": "14"
       },
       {
         "day": "13",
         "title": "新時代のToolBarへ ",
         "url": "http://amyu.hatenadiary.com/entry/2014/12/13/000000",
-        "count": "1"
+        "count": "5"
+      },
+      {
+        "day": "14",
+        "title": "Android SDKのソースコードを読みながら開発する ",
+        "url": "http://ninjinkun.hatenablog.com/entry/hot-to-read-android-sdk",
+        "count": "97"
       }
     ]
   },
@@ -8285,7 +8564,7 @@
         "day": "1",
         "title": "いまから始める！AngularJS《Advent Calendar 2014》",
         "url": "http://qiita.com/hkusu/items/ee3a261b4883a39dafc9",
-        "count": "13"
+        "count": "14"
       },
       {
         "day": "2",
@@ -8351,7 +8630,7 @@
         "day": "12",
         "title": "AngularJSのオレオレ・カスタムフィルター五選《AngularJS Advent Calendar 2014》 ",
         "url": "http://flabo.io/code/20141212/01-angularjs-custom-filter/",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "13",
@@ -8363,7 +8642,7 @@
         "day": "14",
         "title": "AngularJSとBootstrapを組み合わせるならAngularStrap",
         "url": "http://qiita.com/nakamura-to/items/4d963a52bceef1b8c741",
-        "count": "2"
+        "count": "4"
       }
     ]
   },
@@ -8404,7 +8683,7 @@
         "day": "6",
         "title": "Ansible入門〜LAMP環境構築〜 ",
         "url": "http://tech.aainc.co.jp/archives/9042",
-        "count": "13"
+        "count": "14"
       },
       {
         "day": "7",
@@ -8434,13 +8713,19 @@
         "day": "11",
         "title": "Ansibleと個人開発",
         "url": "http://qiita.com/kobarei/items/7c4b7b7f42dc3f45dced",
-        "count": "14"
+        "count": "16"
       },
       {
         "day": "12",
         "title": "Ansible初心者のつまづきポイント ",
         "url": "http://dev.classmethod.jp/server-side/ansible/ansible-beginner-start/",
         "count": "26"
+      },
+      {
+        "day": "14",
+        "title": "puppetもらってただコマンド叩いてたアプリケーションエンジニアが、Ansibleで環境つくってみた。",
+        "url": "http://qiita.com/chocopie116/items/891e4cdc01719febd792",
+        "count": 0
       }
     ]
   },
@@ -8523,6 +8808,12 @@
         "day": "13",
         "title": "Amazon EMR をプロダクション環境で運用してみた話 ",
         "url": "http://blog.manabusakai.com/2014/12/story-of-amazon-emr-experience/",
+        "count": "2"
+      },
+      {
+        "day": "14",
+        "title": "Mac の JMeter クライアントから EC2 環境の JMeter サーバを使って負荷試験を行う ",
+        "url": "http://d.hatena.ne.jp/satotech/20141214/1418560404",
         "count": "1"
       }
     ]
@@ -8585,9 +8876,27 @@
         "count": "1"
       },
       {
+        "day": "12",
+        "title": "Lambdaでのここまでの利用パターンまとめ",
+        "url": "http://qiita.com/shot6/items/f368a187eae73fb527aa",
+        "count": "1"
+      },
+      {
         "day": "13",
         "title": "LambdaでCodeDeployの自動デプロイ機能を実装する ",
         "url": "http://dev.classmethod.jp/cloud/lambda-sdsautodeploy/",
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "Lambdaで作るクローラー／スクレイピング ",
+        "url": "http://blog.takuros.net/entry/2014/12/14/053606",
+        "count": "103"
+      },
+      {
+        "day": "15",
+        "title": "AWS Lambdaの関数をnpmでパッケージ管理",
+        "url": "http://qiita.com/imaifactory/items/ac81b4a3ff4a5f5dec85",
         "count": "1"
       }
     ]
@@ -8653,7 +8962,7 @@
         "day": "11",
         "title": "Webサイトを使って簡単に始めるAzureSearch！！  ",
         "url": "http://blog.hamamotsu.jp/entry/azure-adventcalendar2014",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "12",
@@ -8666,6 +8975,12 @@
         "title": "Azure Media Indexer で動画の字幕検索アプリを作ってみる ",
         "url": "http://gooner.azurewebsites.net/2014/12/13/azure-media-indexer/",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "Azure Web サイトで Jenkins を無料で稼働させてストレージサービスにデータをアップロードする ",
+        "url": "http://normalian.hatenablog.com/entry/2014/12/14/122757",
+        "count": "3"
       }
     ]
   },
@@ -8718,7 +9033,7 @@
         "day": "8",
         "title": "VS2015+RoslynによるCodeRefactoringProviderの作り方と活用法 ",
         "url": "http://neue.cc/2014/12/08_496.html",
-        "count": "10"
+        "count": "11"
       },
       {
         "day": "9",
@@ -8743,6 +9058,24 @@
         "title": "[C#][式木][LINQ] IQueryable な Twitter のタイムライン クラスと LINQ プロバイダー ",
         "url": "http://blog.shos.info/archives/2014/12/csharp_expression_iqueryable.html",
         "count": "2"
+      },
+      {
+        "day": "13",
+        "title": "文字って何かね？",
+        "url": "http://qiita.com/matarillo/items/91b9656428bed7a1a797",
+        "count": "2"
+      },
+      {
+        "day": "14",
+        "title": "列挙可能から完全なるモノまで – IEnumerableの探索 ",
+        "url": "http://www.kekyo.net/2014/12/14/4587",
+        "count": "20"
+      },
+      {
+        "day": "15",
+        "title": "C#で作られたプログラムをデコンパイルしてみよう ",
+        "url": "http://tyheeeee.hateblo.jp/entry/CS-Advent-Calendar-2014-Day-15",
+        "count": "3"
       }
     ]
   },
@@ -8807,30 +9140,36 @@
         "day": "10",
         "title": "C++でPythonを拡張するためのBoost.NumPyチュートリアル(実践編)",
         "url": "http://qiita.com/termoshtt/items/81eeb0467d9087958f7f",
-        "count": "6"
+        "count": "7"
       },
       {
         "day": "11",
         "title": "リンク時に関連するルールの話 ",
         "url": "http://fimbul.hateblo.jp/entry/2014/12/11/000123",
-        "count": "4"
+        "count": "5"
       },
       {
         "day": "12",
         "title": "ゲームとメディアアートのための C++ ライブラリ「Siv3D」 ",
         "url": "http://play-siv3d.hateblo.jp/entry/introduction2014",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "13",
         "title": "線形代数ライブラリの速度比較 ",
         "url": "http://sigure430.hatenablog.com/entry/2014/12/13/162149",
-        "count": "1"
+        "count": "3"
       },
       {
         "day": "14",
         "title": "名前空間に何があったのか ",
         "url": "http://lapis.hatenablog.com/entry/2014/12/09/105103",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "ネタはなかったよ... ",
+        "url": "http://flast.hateblo.jp/entry/2014/12/15/000000",
         "count": 0
       }
     ]
@@ -8915,6 +9254,12 @@
         "title": "clojure-androidのAndroid5.0対応について",
         "url": "http://qiita.com/koji_yusa/items/512a22e977d83a3b1185",
         "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "transducersとcore.async ",
+        "url": "http://k2nr.me/blog/2014/12/14/transducers-and-async.html",
+        "count": 0
       }
     ]
   },
@@ -8973,7 +9318,7 @@
         "day": "9",
         "title": "コストを下げろと言われたら~AWSでまずやること~",
         "url": "http://qiita.com/gucchon/items/33731a18e5b457f2bd34",
-        "count": "259"
+        "count": "262"
       },
       {
         "day": "10",
@@ -8991,12 +9336,24 @@
         "day": "12",
         "title": "機械学習の過程をD3.jsで可視化する",
         "url": "http://qiita.com/dr_paradi/items/dfd4442bd4122fb955a6",
-        "count": "3"
+        "count": "4"
       },
       {
         "day": "13",
         "title": "TCOとちょっとだけIDCFクラウド",
         "url": "http://qiita.com/Satoshi_Nakamura/items/e9e0e2d8d79e20d6d817",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "cocos2d-x3.Xでlambdaする",
+        "url": "http://qiita.com/ikemonn/items/6863e39dca58a1f02b87",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "CYBIRDの技術者社内交流イベントについて",
+        "url": "http://qiita.com/megadreams14/items/5134329738101fd4cea9",
         "count": 0
       }
     ]
@@ -9080,12 +9437,18 @@
         "day": "13",
         "title": "html5lib: Dart Serverでhtml5をparseする ",
         "url": "http://jablog.ntaoo.com/2014/12/13/dart-html5lib/",
-        "count": "1"
+        "count": "2"
       },
       {
         "day": "14",
         "title": "The Event Loop and Dart (翻訳)",
         "url": "http://qiita.com/takyam/items/6ad155678c95bba4047f",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "Dart製のSinatra風Webフレームワーク「Start」を使ってみた ",
+        "url": "http://stormcat.hatenablog.com/entry/2014/12/15/100000",
         "count": 0
       }
     ]
@@ -9170,6 +9533,18 @@
         "title": "Azure Websites (Free !)でDelphi ISAPIを実行 ",
         "url": "http://mojeld.blog41.fc2.com/blog-entry-82.html",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "内積と進行方向〜恋愛の奥義〜",
+        "url": "http://qiita.com/shutoo1010/items/fcfad712ebd9c69127c8",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "CodeIQ デスマコロシアムの Pascal の解（Pascal でのショートコーディング・テクニック） ",
+        "url": "http://delphimaniacs.blogspot.com/2014/12/codeiq-pascal.html",
+        "count": 0
       }
     ]
   },
@@ -9180,7 +9555,7 @@
         "day": "1",
         "title": "Dockerコンテナ接続パターン (2014年冬) ",
         "url": "http://deeeet.com/writing/2014/12/01/docker-link-pattern/",
-        "count": "341"
+        "count": "342"
       },
       {
         "day": "2",
@@ -9222,13 +9597,13 @@
         "day": "8",
         "title": "Dockerを使ってオンラインコンパイル環境を作る",
         "url": "http://qiita.com/h2so5/items/69aee973898252b39e76",
-        "count": "34"
+        "count": "35"
       },
       {
         "day": "9",
         "title": "最小のdockerイメージを作る ",
         "url": "http://k2nr.me/blog/2014/12/09/create-small-image-for-docker.html",
-        "count": "65"
+        "count": "66"
       },
       {
         "day": "10",
@@ -9246,6 +9621,12 @@
         "day": "12",
         "title": "Dockerを使ったWebアプリのお試し版配布 ",
         "url": "http://hanhans.net/blog/hanhan/2014/12/11/docker%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9Fweb%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%81%8A%E8%A9%A6%E3%81%97%E9%85%8D%E5%B8%83/",
+        "count": "9"
+      },
+      {
+        "day": "14",
+        "title": "DockerコンテナをConsulで管理する方法",
+        "url": "http://qiita.com/foostan/items/a679ffcf3e20ff2f6032",
         "count": "9"
       }
     ]
@@ -9311,19 +9692,25 @@
         "day": "11",
         "title": "新卒エンジニア研修で「Elasticsearch の歩き方」について話した ",
         "url": "http://blog.inouetakuya.info/entry/2014/12/11/180106",
-        "count": "196"
+        "count": "197"
       },
       {
         "day": "12",
         "title": "Elasticsearchにpowershellからデータを投入してみよう",
         "url": "http://qiita.com/toshi_miura/items/10131958a52137cd669d",
-        "count": "1"
+        "count": "2"
       },
       {
         "day": "13",
         "title": "プラグインを作ってみよう ",
         "url": "http://www.chazine.com/archives/3565",
-        "count": "3"
+        "count": "4"
+      },
+      {
+        "day": "14",
+        "title": "DLsiteの作品検索でElsaticsearchを使ってみた話",
+        "url": "http://qiita.com/moroya/items/013bf435b4df8cce5955",
+        "count": 0
       }
     ]
   },
@@ -9334,7 +9721,7 @@
         "day": "1",
         "title": "git-gutter.elの紹介",
         "url": "http://qiita.com/syohex/items/a669b35fbbfcdda0cbf2",
-        "count": "9"
+        "count": "11"
       },
       {
         "day": "2",
@@ -9400,7 +9787,13 @@
         "day": "13",
         "title": "Emacsを快適に使うファイル周りの設定紹介",
         "url": "http://qiita.com/catatsuy/items/f9fad90fa1352a4d3161",
-        "count": "33"
+        "count": "47"
+      },
+      {
+        "day": "14",
+        "title": "TODO リストとメモ書きにだけ Emacs を使ってみませんか？",
+        "url": "http://qiita.com/akisute3@github/items/8e45d97abc2d4fce8780",
+        "count": 0
       }
     ]
   },
@@ -9441,7 +9834,7 @@
         "day": "6",
         "title": "BufferedOutput pluginの代表的なoptionについて",
         "url": "http://qiita.com/tatsu-yam/items/bd7006e483f3b3c64309",
-        "count": "6"
+        "count": "7"
       },
       {
         "day": "7",
@@ -9459,7 +9852,7 @@
         "day": "9",
         "title": "fluentd pluginで集計処理をする(Norikra以外で)",
         "url": "http://qiita.com/moaikids/items/f9e41cebcd97a2d76579",
-        "count": "46"
+        "count": "47"
       },
       {
         "day": "10",
@@ -9477,7 +9870,19 @@
         "day": "12",
         "title": "Fluentdを利用してsshログインを通知する ",
         "url": "http://blog.kenjiskywalker.org/blog/2014/12/12/login-notification/",
-        "count": "64"
+        "count": "75"
+      },
+      {
+        "day": "14",
+        "title": "FluentdでRuby DSLを使う",
+        "url": "http://qiita.com/toyama0919/items/10616cb9025cb9cecd69",
+        "count": "17"
+      },
+      {
+        "day": "15",
+        "title": "Fluentd v0.12 Filter プラグインの使い方と作り方",
+        "url": "http://qiita.com/sonots/items/25a354b5e8aa524faeef",
+        "count": "2"
       }
     ]
   },
@@ -9567,6 +9972,12 @@
         "title": "GISの過去と現在 (自分目線) ",
         "url": "http://day-journal.com/blog/day-007-2/",
         "count": 0
+      },
+      {
+        "day": "15",
+        "title": "ソーシャルコーディングで geojson-vt を起こす ",
+        "url": "http://handygeospatial.github.io/foss4g-advent-calendar-2014/",
+        "count": 0
       }
     ]
   },
@@ -9637,12 +10048,24 @@
         "day": "11",
         "title": "俺のJSライブラリの世界観(2014末版)",
         "url": "http://qiita.com/mizchi/items/62f6bda6d3e077de14a9",
-        "count": "373"
+        "count": "379"
       },
       {
         "day": "12",
         "title": "Jekyll + Github Pagesでブログを作る ",
         "url": "http://chikathreesix.com/?p=297",
+        "count": 0
+      },
+      {
+        "day": "13",
+        "title": "勉強会でのメモの取り方 ",
+        "url": "http://layzie.hatenablog.com/entry/20141213/1418481000",
+        "count": "2"
+      },
+      {
+        "day": "14",
+        "title": "EditorConfigで文字コード設定を共有して喧嘩しなくなる話。 ",
+        "url": "http://ginpen.com/2014/12/14/editorconfig/",
         "count": 0
       }
     ]
@@ -9660,7 +10083,7 @@
         "day": "2",
         "title": "初心者がプルリクまでに覚えるべきたった 9つの厳選 Gitコマンド ",
         "url": "http://akiyoko.hatenablog.jp/entry/2014/12/02/000939",
-        "count": "458"
+        "count": "461"
       },
       {
         "day": "3",
@@ -9684,7 +10107,7 @@
         "day": "6",
         "title": "Gitの便利な-pオプション四兄弟 ",
         "url": "http://yoshiko.hatenablog.jp/entry/2014/12/06/Git%E3%81%AE%E4%BE%BF%E5%88%A9%E3%81%AA-p%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3%E5%9B%9B%E5%85%84%E5%BC%9F",
-        "count": "247"
+        "count": "248"
       },
       {
         "day": "8",
@@ -9721,6 +10144,12 @@
         "title": "Gitの効率的な学習方法 ",
         "url": "https://takanabelab.wordpress.com/2014/12/13/git%E5%85%A5%E9%96%80%EF%BC%9Agit%E5%88%9D%E5%AD%A6%E7%BF%92%E8%80%85%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E5%8A%B9%E7%8E%87%E7%9A%84%E3%81%AA%E5%AD%A6%E7%BF%92%E6%96%B9%E6%B3%95%E3%82%92%E8%80%83/",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "コンフリクトの解決を記録して再適用する git rerere",
+        "url": "http://qiita.com/usamik26/items/00208bbcde31fcde9117",
+        "count": "2"
       }
     ]
   },
@@ -9737,7 +10166,7 @@
         "day": "2",
         "title": "Goのデバッグに便利なpretty printライブラリ「pp」を作った",
         "url": "http://qiita.com/k0kubun/items/5150fcb5d0740309d1eb",
-        "count": "160"
+        "count": "161"
       },
       {
         "day": "3",
@@ -9755,7 +10184,7 @@
         "day": "5",
         "title": "Goサーバのモニタリング",
         "url": "http://qiita.com/cubicdaiya/items/b90c1ae147a72f4970b2",
-        "count": "131"
+        "count": "132"
       },
       {
         "day": "6",
@@ -9773,13 +10202,13 @@
         "day": "9",
         "title": "Go で Language Benchmark Game に挑戦して惨敗した",
         "url": "http://qiita.com/methane/items/5aaedf70b99bb713e2a4",
-        "count": "17"
+        "count": "16"
       },
       {
         "day": "10",
         "title": "go1.4で追加されたinternal packageについて",
         "url": "http://qiita.com/taka011239@github/items/5735a1ec78bad06f5485",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "11",
@@ -9797,7 +10226,13 @@
         "day": "13",
         "title": "Write in Goを歌ってみた",
         "url": "http://qiita.com/drillbits/items/640b393dd0345e8e03b1",
-        "count": 0
+        "count": "16"
+      },
+      {
+        "day": "15",
+        "title": "Golang Error Handling lesson by Rob Pike ",
+        "url": "http://jxck.hatenablog.com/entry/golang-error-handling-lesson-by-rob-pike",
+        "count": "8"
       }
     ]
   },
@@ -9874,13 +10309,19 @@
         "day": "12",
         "title": "Google Compute Engineの鬼速Local SSDを試す",
         "url": "http://qiita.com/kazunori279/items/7837a78d18ec7e22b939",
-        "count": "5"
+        "count": "6"
       },
       {
         "day": "13",
         "title": "GCP関連のモニタリングを俺なりに検討してみる。",
         "url": "http://qiita.com/jhotta/items/b6aadd0ef308e879ce85",
-        "count": 0
+        "count": "19"
+      },
+      {
+        "day": "15",
+        "title": "GCP エッジキャッシュ",
+        "url": "http://qiita.com/sinmetal/items/37c105a098174fb6bf77",
+        "count": "2"
       },
       {
         "day": "17",
@@ -9945,7 +10386,7 @@
         "day": "12",
         "title": "SQL関連のGoライブラリー紹介",
         "url": "http://qiita.com/guregu/items/726f34f80de4e9ba7539",
-        "count": "1"
+        "count": "2"
       }
     ]
   },
@@ -10004,19 +10445,108 @@
         "day": "9",
         "title": "Haskellの乱数事情",
         "url": "http://qiita.com/philopon/items/8f647fc8dafe66b7381b",
-        "count": "11"
+        "count": "12"
       },
       {
         "day": "10",
         "title": "Haskellの関数合成が苦手に感じるわけを考察してみた",
         "url": "http://qiita.com/jabaraster/items/e0732a33172d104d6548",
-        "count": "5"
+        "count": "6"
       },
       {
         "day": "12",
         "title": "Haskell rest フレームワークでREST API設計をサボる",
         "url": "http://qiita.com/arowM/items/ff800ce4136966a6ce8e",
+        "count": "11"
+      },
+      {
+        "day": "14",
+        "title": "lensの使い方 ",
+        "url": "http://solorab.net/blog/2014/12/14/how-to-use-lens-a/",
+        "count": "25"
+      }
+    ]
+  },
+  {
+    "themeTitle": "HTML5",
+    "entries": [
+      {
+        "day": "1",
+        "title": "ベタですがhtml5testをやりました ",
+        "url": "http://albatrosary.hateblo.jp/entry/2014/12/01/170626",
+        "count": "3"
+      },
+      {
+        "day": "2",
+        "title": "滑り込みですが、traceur-compilerで２日目の記事を ",
+        "url": "https://github.com/MSakamaki/AdventCalendar2014/blob/master/HTML5/1202.md",
+        "count": "2"
+      },
+      {
+        "day": "3",
+        "title": "最近気になっているHTML5の最新技術に触れてみました ",
+        "url": "http://albatrosary.hateblo.jp/entry/2014/12/03/072118",
         "count": "9"
+      },
+      {
+        "day": "4",
+        "title": "【追加】最近気になっているHTML5の最新技術に触れてみました ",
+        "url": "http://albatrosary.hateblo.jp/entry/2014/12/04/080214",
+        "count": "3"
+      },
+      {
+        "day": "5",
+        "title": "W3CとかWHATWGとか歴史とか ",
+        "url": "http://albatrosary.hateblo.jp/entry/2014/12/05/083757",
+        "count": "1"
+      },
+      {
+        "day": "6",
+        "title": "Brick(Web Components)がすごい ",
+        "url": "http://albatrosary.hateblo.jp/entry/2014/12/06/105723",
+        "count": "3"
+      },
+      {
+        "day": "7",
+        "title": "画像を分割もしくは合体させてパフォーマンスは本当に変化するのか? ",
+        "url": "http://takehora.hatenadiary.jp/entry/2014/12/07/232406",
+        "count": "97"
+      },
+      {
+        "day": "8",
+        "title": "レスポンシブってなんだろうか ",
+        "url": "http://pigikuro.tumblr.com/post/104639931655",
+        "count": "1"
+      },
+      {
+        "day": "9",
+        "title": "HTML5 Media Element まとめ",
+        "url": "http://qiita.com/tomoyukilabs/items/bab03e3fc6a78c5bb56a",
+        "count": "1"
+      },
+      {
+        "day": "10",
+        "title": "サンタの安全を考え足下を照らすプログラムを書いてみた",
+        "url": "http://qiita.com/wks/items/564248385b02696b15e3",
+        "count": 0
+      },
+      {
+        "day": "11",
+        "title": "超音波通信やろうとして音の可視化（可聴域の特定周波数の判別など）をやった話【前編】",
+        "url": "http://qiita.com/youtoy/items/3a8395c948db1c40cfae",
+        "count": "4"
+      },
+      {
+        "day": "13",
+        "title": "HTML5のバリデーションを行ってくれるサービス、ソフトウェアまとめ ",
+        "url": "http://blog.htmlhifive.com/2014/12/13/html5-markup-validation-software-and-service/",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "みんなもっとJSON-LDについて知るべきだ ",
+        "url": "http://wp-kyoto.net/json-ld-is-very-interesting/",
+        "count": 0
       }
     ]
   },
@@ -10027,7 +10557,7 @@
         "day": "1",
         "title": "Swiftってどんなの？こんなの〜！",
         "url": "http://qiita.com/tomzoh/items/74063c56b2e836f2bacb",
-        "count": "82"
+        "count": "83"
       },
       {
         "day": "2",
@@ -10069,7 +10599,7 @@
         "day": "8",
         "title": "iOS 8 の Location Notification を使って目的地に着いたら教えてくれるアプリを作る",
         "url": "http://qiita.com/koogawa/items/5f68feecf9b7b3f176c1",
-        "count": "9"
+        "count": "11"
       },
       {
         "day": "9",
@@ -10093,13 +10623,19 @@
         "day": "12",
         "title": "Xcodeコメントの基本 ",
         "url": "http://www.toyship.org/archives/1952",
-        "count": "2"
+        "count": "76"
       },
       {
         "day": "13",
         "title": "iOSでAppExtensionを使わずにカスタムキーボード ",
         "url": "http://blog.haranicle.net/customkeyboard_without_extension/",
-        "count": 0
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "Storyboardだけでページング可能なScroll Viewを簡単定義 〜Auto Layout活用テクニック〜",
+        "url": "http://qiita.com/hedjirog/items/a85a18ee8fcfbfab56c2",
+        "count": "2"
       }
     ]
   },
@@ -10158,7 +10694,7 @@
         "day": "9",
         "title": "Javaであまりしないコーディング ",
         "url": "http://irof.hateblo.jp/entry/2014/12/09/000000",
-        "count": "99"
+        "count": "98"
       },
       {
         "day": "10",
@@ -10176,13 +10712,25 @@
         "day": "12",
         "title": "Duke で Swing ",
         "url": "http://skrb.hatenablog.com/entry/2014/12/12/224732",
-        "count": 0
+        "count": "2"
       },
       {
         "day": "13",
         "title": "10年間Javaを書いていた僕が Effective Java 第2版を読み返して新人に薦められるのかを考えてみた ",
         "url": "http://www.susumuis.info/entry/2014/advent_calendar_java",
-        "count": 0
+        "count": "3"
+      },
+      {
+        "day": "14",
+        "title": "OpenJDKの開発について書きました．Authorになるための条件とかそのあたり ",
+        "url": "http://d.hatena.ne.jp/bitter_fox/20141214/1418565101",
+        "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "[書評] Gradle徹底入門 ",
+        "url": "http://grimrose.blogspot.jp/2014/12/gradle.html",
+        "count": "1"
       }
     ]
   },
@@ -10259,7 +10807,19 @@
         "day": "12",
         "title": "JSFのコンセプト（考え方）って？",
         "url": "http://qiita.com/tatsu983/items/0a3d812e1df56f3eb4b7",
-        "count": "2"
+        "count": "3"
+      },
+      {
+        "day": "14",
+        "title": "JavaEEだけどDockerがしたい！- GlassFish on Docker ",
+        "url": "http://koduki.hatenablog.com/entry/2014/12/14/235758",
+        "count": "6"
+      },
+      {
+        "day": "15",
+        "title": "Arquillian Cube を試す ",
+        "url": "http://morec.at/blog/2014/12/15/getting-started-with-arquillian-cube",
+        "count": 0
       }
     ]
   },
@@ -10336,7 +10896,7 @@
         "day": "13",
         "title": "iPhoto で写真を扱う - GPS ",
         "url": "http://takuya-1st.hatenablog.jp/entry/2014/12/13/183223",
-        "count": 0
+        "count": "1"
       }
     ]
   },
@@ -10413,7 +10973,7 @@
         "day": "13",
         "title": "Julia入門本を読みました ",
         "url": "http://chezou.hatenablog.com/entry/2014/12/13/000200",
-        "count": 0
+        "count": "1"
       }
     ]
   },
@@ -10484,6 +11044,18 @@
         "day": "13",
         "title": "かな入力を始めよう >> kazoo04 ",
         "url": "http://nahareport.blogspot.jp/2014/12/blog-post.html",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "godnsでお気楽DNS管理",
+        "url": "http://qiita.com/kr9ly/items/deb7def6667918920929",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "毎月15日はお菓子の日らしい ",
+        "url": "http://averu.hatenablog.com/entry/2014/12/15/092349",
         "count": 0
       }
     ]
@@ -10567,12 +11139,24 @@
         "day": "13",
         "title": "KnowkoutJSでTrelloライクなWebアプリを作る",
         "url": "http://qiita.com/yusuke_nozoe/items/ff14e3d3885577809c72",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "14",
         "title": "カスタムバインディングの作り方 ",
         "url": "http://tango.hatenablog.com/entry/2014/12/14/000000",
+        "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "Knockoutの template バインディング ",
+        "url": "http://tango.hatenablog.com/entry/2014/12/15/000000",
+        "count": 0
+      },
+      {
+        "day": "17",
+        "title": "Mappingプラグイン（その１） ",
+        "url": "http://tango.hatenablog.com/entry/2014/12/17/000000",
         "count": 0
       }
     ]
@@ -10651,6 +11235,12 @@
         "title": "【Laravel4】Paginationいじり ",
         "url": "http://ichikawa.hatenadiary.jp/entry/2014/12/12/192605",
         "count": 0
+      },
+      {
+        "day": "15",
+        "title": "Markdownでコンテンツを管理できるWebサイトをLaravelで作ってみた",
+        "url": "http://qiita.com/ABCanG1015/items/f748d26dcbbca3433c06",
+        "count": 0
       }
     ]
   },
@@ -10721,7 +11311,7 @@
         "day": "11",
         "title": "C系言語から Lisp に移行した時に戸惑ったこと ",
         "url": "https://gist.github.com/y2q-actionman/ace81e2ebda09f0daedf#file-advent-2014-12-11-org",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "12",
@@ -10730,10 +11320,16 @@
         "count": 0
       },
       {
+        "day": "13",
+        "title": "racket+big-bangを使ってどうしようもないプログラムを書く方法 ",
+        "url": "http://bugrammer.hateblo.jp/entry/2014/12/14/195319",
+        "count": "2"
+      },
+      {
         "day": "14",
         "title": "証明された Common Lisp / Emacs Lisp コードを手に入れる",
         "url": "http://qiita.com/dico_leque/items/dc0dbc359d7d5090a9a2",
-        "count": 0
+        "count": "1"
       }
     ]
   },
@@ -10798,7 +11394,7 @@
         "day": "10",
         "title": "【テストツール不要】明日から試せる転職会議式ABテストのはじめ方",
         "url": "http://qiita.com/kekekenta/items/8b1f9d2a17c4c6a6b638",
-        "count": "94"
+        "count": "97"
       },
       {
         "day": "11",
@@ -10863,36 +11459,42 @@
         "day": "6",
         "title": "RBMから考えるDeep Learning　～黒魔術を添えて～",
         "url": "http://qiita.com/t_Signull/items/f776aecb4909b7c5c116",
-        "count": "67"
+        "count": "69"
       },
       {
         "day": "9",
         "title": "iOSと機械学習 ",
         "url": "http://d.hatena.ne.jp/shu223/20141212/1418300463",
-        "count": "279"
+        "count": "283"
       },
       {
         "day": "10",
         "title": "英語で自然言語処理するなら　〜Standford CoreNLP〜",
         "url": "http://qiita.com/kohei_nakaji/items/835b91f8e4a2d8253333",
-        "count": "3"
+        "count": "4"
       },
       {
         "day": "11",
         "title": "Scikit-learnを使って主成分分析を中心に色々と遊ぶ ",
         "url": "http://blog.cocomoff.info/archives/2014/12/11/7121/",
-        "count": "4"
+        "count": "5"
       },
       {
         "day": "12",
         "title": "半教師あり学習のモデル仮定 ",
         "url": "http://yamaguchiyuto.hatenablog.com/entry/machine-learning-advent-calendar-2014",
-        "count": "8"
+        "count": "13"
       },
       {
         "day": "13",
         "title": "機械学習の学習とWolframAlpha",
         "url": "http://qiita.com/awakia/items/fc108790b4e5f59bf2a6",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "機械学習のエンターテイメント・アート分野への応用",
+        "url": "http://qiita.com/RyotaKatoh/items/b077aa52b565e4947d3a",
         "count": 0
       }
     ]
@@ -10965,6 +11567,101 @@
         "title": "FABRIC_OPT_MODE= roにしてもマスターにもラウンドロビンされる仕様。つらい。 ",
         "url": "http://yoku0825.blogspot.jp/2014/11/mysql-fabricfabricoptmode-ro.html",
         "count": "12"
+      },
+      {
+        "day": "15",
+        "title": "server_mode= WRITE_ONLY、Fabricサーバー側には実装されててもちろんドキュメントが *ない* んだけどコネクター側に実装されてない。つらい。 ",
+        "url": "http://yoku0825.blogspot.jp/2014/11/mysql-fabricfabricoptmode-ro_25.html",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "themeTitle": "NetBSD",
+    "entries": [
+      {
+        "day": "1",
+        "title": "NetBSDをVirtualBoxにインストールしてみる",
+        "url": "http://qiita.com/furandon_pig/items/5882ede06b5b5d3bf439",
+        "count": "1"
+      },
+      {
+        "day": "2",
+        "title": "NetBSDインストール後の環境設定",
+        "url": "http://qiita.com/furandon_pig/items/5479293cb21d6fd9f17c",
+        "count": 0
+      },
+      {
+        "day": "3",
+        "title": "プログラミング環境としてNetBSDを使う話",
+        "url": "http://qiita.com/furandon_pig/items/b1607d8c5bc314c0e31d",
+        "count": 0
+      },
+      {
+        "day": "4",
+        "title": "NetBSD/earmをqemu上で使ってみる ",
+        "url": "http://blog.onodera.asia/2014/12/qemunetbsdearm.html",
+        "count": "2"
+      },
+      {
+        "day": "5",
+        "title": "NetBSDカーネルをビルドしてみる",
+        "url": "http://qiita.com/furandon_pig/items/d9b2782372edc1b93263",
+        "count": 0
+      },
+      {
+        "day": "6",
+        "title": "NetBSDでRaspberryPIを使ってみる ",
+        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/RPI.rst",
+        "count": "4"
+      },
+      {
+        "day": "7",
+        "title": "NetBSDでZAURUSを使ってみる ",
+        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/ZAURUS.rst",
+        "count": 0
+      },
+      {
+        "day": "8",
+        "title": "pkgsrcでソフトウェアをインストールする ",
+        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/pkgsrc.rst",
+        "count": 0
+      },
+      {
+        "day": "9",
+        "title": "NetBSDでWZERO3を使ってみる ",
+        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/WZERO3.rst",
+        "count": 0
+      },
+      {
+        "day": "10",
+        "title": "LUNAの薄い本 ",
+        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/Luna.rst",
+        "count": "1"
+      },
+      {
+        "day": "11",
+        "title": "NetBSD man を HTML 変換したものを公開してみて分かったこと ",
+        "url": "http://www.daemon-systems.org/diary/20141211.html",
+        "count": "1"
+      },
+      {
+        "day": "12",
+        "title": "CAT68701にNetBSDを移植したときの思い出 ",
+        "url": "http://blog.daionet.gr.jp/knok/2014/12/12/cat68701-netbsd/",
+        "count": 0
+      },
+      {
+        "day": "13",
+        "title": "NetBSDで観光ガイドを作ってみる ",
+        "url": "https://github.com/ebijun/NetBSD/blob/master/Guide/Paper/sphinx.rst",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "NetBSDでイメージ系USBデバイスを使ってみる ",
+        "url": "http://blog.onodera.asia/2014/12/netbsdusb.html",
+        "count": 0
       }
     ]
   },
@@ -10975,7 +11672,7 @@
         "day": "1",
         "title": "Stream今昔物語 ",
         "url": "http://yosuke-furukawa.hatenablog.com/entry/2014/12/01/155303",
-        "count": "95"
+        "count": "100"
       },
       {
         "day": "2",
@@ -11011,7 +11708,7 @@
         "day": "7",
         "title": "細かすぎて伝わらない package.json 小ネタ三選 ",
         "url": "http://t-wada.hatenablog.jp/entry/nodejs-package-json-tips",
-        "count": "85"
+        "count": "86"
       },
       {
         "day": "8",
@@ -11044,6 +11741,12 @@
         "count": "4"
       },
       {
+        "day": "14",
+        "title": "node.jsで曲を奏でる ",
+        "url": "http://blog.picomon.jp/tech/?p=283",
+        "count": 0
+      },
+      {
         "day": "24",
         "title": "Node.jsでEXEコンパイラを作った話 ",
         "url": "http://shigemk2.github.io/KernelVMTsukuba2014/",
@@ -11070,7 +11773,7 @@
         "day": "3",
         "title": "Unityから全球画像をつくるしくみ ",
         "url": "http://blkcatman.net/?p=225",
-        "count": "11"
+        "count": "12"
       },
       {
         "day": "4",
@@ -11088,7 +11791,7 @@
         "day": "6",
         "title": "MMD4Mecanim剛体基礎知識",
         "url": "http://qiita.com/mkt_/items/638516e12eec2e5419fd",
-        "count": "11"
+        "count": "12"
       },
       {
         "day": "7",
@@ -11106,7 +11809,7 @@
         "day": "10",
         "title": "VR空間内でのUIについて",
         "url": "http://qiita.com/mishima/items/a7d500b88968a0b64340",
-        "count": "47"
+        "count": "48"
       },
       {
         "day": "11",
@@ -11130,7 +11833,7 @@
         "day": "14",
         "title": "OculusConnect_Mastering_the_SDK 日本語解説 ",
         "url": "http://izm-11.hatenablog.com/entry/2014/12/14/005101",
-        "count": "3"
+        "count": "17"
       }
     ]
   },
@@ -11183,13 +11886,13 @@
         "day": "8",
         "title": "ペパボのエンジニア評価制度を、社内の一般エンジニアはどうみているのか？ ",
         "url": "http://blog.inouetakuya.info/entry/2014/12/08/214435",
-        "count": "107"
+        "count": "108"
       },
       {
         "day": "9",
         "title": "tmux 内で SSH した時のロギングを自動でやる ",
         "url": "http://memo.laughk.org/2014/12/09/tmux-ssh-logging.html",
-        "count": "4"
+        "count": "5"
       },
       {
         "day": "10",
@@ -11201,19 +11904,25 @@
         "day": "11",
         "title": "Web APIを作るときに考えること。 ",
         "url": "http://hisaichi5518.hatenablog.jp/entry/2014/12/11/124811",
-        "count": "435"
+        "count": "443"
       },
       {
         "day": "12",
         "title": "組織能力を圧倒的に成長させること ",
         "url": "http://blog.kentarok.org/entry/2014/12/12/225846",
-        "count": "318"
+        "count": "350"
       },
       {
         "day": "13",
         "title": "マネージャーができるサービス監視 ",
         "url": "http://pplog.org/?p=3310",
-        "count": "159"
+        "count": "176"
+      },
+      {
+        "day": "14",
+        "title": "muninをちょっぱやにする方法 ",
+        "url": "http://buty4649.hatenablog.com/entry/2014/12/14/munin%E3%82%92%E3%81%A1%E3%82%87%E3%81%A3%E3%81%B1%E3%82%84%E3%81%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95",
+        "count": "40"
       },
       {
         "day": "25",
@@ -11284,7 +11993,7 @@
         "day": "10",
         "title": "Perlでベンチマーク ",
         "url": "http://mihyaeru21.hatenablog.com/entry/2014/12/10/150405",
-        "count": "29"
+        "count": "30"
       },
       {
         "day": "11",
@@ -11296,13 +12005,19 @@
         "day": "12",
         "title": "Plagger 入門 in 2014 ",
         "url": "http://blog.zoncoen.net/blog/2014/12/12/plagger-2014/",
-        "count": "105"
+        "count": "109"
       },
       {
         "day": "13",
         "title": "安心してスクリプトを実行したい Script::Nohupの紹介 ",
         "url": "http://macotasu.hatenablog.jp/entry/2014/12/13/224540",
-        "count": 0
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "Carton時代の必須インストールモジュール(Webアプリ編)",
+        "url": "http://qiita.com/karupanerura/items/e765b23bd3bff806cc27",
+        "count": "5"
       }
     ]
   },
@@ -11331,7 +12046,7 @@
         "day": "4",
         "title": "38才からのプログラミング入門 ",
         "url": "http://note103.hateblo.jp/entry/2014/12/04/143000",
-        "count": "681"
+        "count": "693"
       },
       {
         "day": "5",
@@ -11367,25 +12082,31 @@
         "day": "10",
         "title": "Perlで日々の行動や考えを記録する: \"Worg\" のご紹介 ",
         "url": "http://note103.hateblo.jp/entry/2014/12/10/131011",
-        "count": "43"
+        "count": "44"
       },
       {
         "day": "11",
         "title": "cpandocべんりってはなし",
         "url": "http://qiita.com/toku_bass/items/70c719ee2158332381d6",
-        "count": "7"
+        "count": "8"
       },
       {
         "day": "12",
         "title": "プログラミング言語を学ぶという事についての私見 ",
         "url": "http://blog.azumakuniyuki.org/2014/12/learning-programming-languages.html",
-        "count": "42"
+        "count": "52"
       },
       {
         "day": "13",
         "title": "Perlを学んでいるとお得 テキストファイル解析編 ",
         "url": "http://mackee.hatenablog.com/entry/2014/12/13/174112",
-        "count": "2"
+        "count": "7"
+      },
+      {
+        "day": "14",
+        "title": "モダンPerlを知ってびっくりしたこと ",
+        "url": "http://sairoutine.hatenablog.com/entry/2014/12/14/190209",
+        "count": "12"
       }
     ]
   },
@@ -11426,7 +12147,7 @@
         "day": "7",
         "title": "PHP7はなぜ速いのか（zval編） ",
         "url": "http://d.hatena.ne.jp/hnw/20141207",
-        "count": "284"
+        "count": "285"
       },
       {
         "day": "8",
@@ -11456,19 +12177,25 @@
         "day": "12",
         "title": "Docker Hub 公式 PHP イメージで、複数バージョンの PHP コンテナを起動する ",
         "url": "http://www.1x1.jp/blog/2014/12/docker-hub-official-php.html",
-        "count": "31"
+        "count": "33"
       },
       {
         "day": "13",
         "title": "PHPUnit 3.7~4.3 で追加された機能",
         "url": "http://qiita.com/ngyuki/items/ca43aaa1a728f48c8cde",
-        "count": 0
+        "count": "3"
       },
       {
         "day": "14",
         "title": "PHP歴8ヶ月の自分がPHPについて考えてみる",
         "url": "http://qiita.com/ktaro/items/fff034835d78826ead90",
         "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "PHP 製デプロイツール Rocketeer で簡単デプロイ",
+        "url": "http://qiita.com/localdisk/items/55c5c20299333f5bf160",
+        "count": 0
       }
     ]
   },
@@ -11545,6 +12272,18 @@
         "day": "12",
         "title": "Postfixの証明書認証アレコレ",
         "url": "http://qiita.com/jem_3/items/23199dfcb8c1f8b2a3be",
+        "count": "3"
+      },
+      {
+        "day": "14",
+        "title": "Amazon LinuxでPostfixを用いたPostfixAdmin構築",
+        "url": "http://qiita.com/launcher_test/items/942c2efc5b1619676a54",
+        "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "Postfix から MySQL を使う ",
+        "url": "http://tmtms.hatenablog.com/entry/2014/12/15/postfix-mysql",
         "count": "2"
       }
     ]
@@ -11556,7 +12295,7 @@
         "day": "1",
         "title": "PostgreSQLのプラン・ツリー概要 ",
         "url": "http://www.nminoru.jp/~nminoru/postgresql/pg-plan-tree.html",
-        "count": "8"
+        "count": "9"
       },
       {
         "day": "2",
@@ -11574,7 +12313,7 @@
         "day": "4",
         "title": "RDS for PostgreSQLを使い始めてみたレポート ",
         "url": "http://diary.osa-p.net/2014/12/rds-for-postgresql.html",
-        "count": "1"
+        "count": "2"
       },
       {
         "day": "5",
@@ -11604,7 +12343,7 @@
         "day": "9",
         "title": "PostgreSQLのJSONB型を利用してタグ検索を行う ",
         "url": "http://blog.ohgaki.net/should-use-postgresql-for-tag-search-json",
-        "count": "2"
+        "count": "4"
       },
       {
         "day": "10",
@@ -11628,7 +12367,13 @@
         "day": "13",
         "title": "PostgreSQL のパフォーマンスチューニング",
         "url": "http://qiita.com/cuzic/items/f9b846e6171a54079d77",
-        "count": "110"
+        "count": "160"
+      },
+      {
+        "day": "15",
+        "title": "RDS for PostgreSQLを監視するコツ ",
+        "url": "http://moomindani.wordpress.com/2014/12/15/monitoring-rds-postgresql/",
+        "count": "2"
       }
     ]
   },
@@ -11699,19 +12444,19 @@
         "day": "11",
         "title": "(Pythonによる簡単な(Lisp)インタープリタ実装方法) ",
         "url": "http://samurait.hatenablog.com/entry/lisp_interpreter_implementation_in_python",
-        "count": "7"
+        "count": "8"
       },
       {
         "day": "12",
         "title": "Djangoのテストの書き方について勉強したのでまとめる ",
         "url": "http://nwpct1.hatenablog.com/entry/how-to-write-unittest-on-django",
-        "count": "20"
+        "count": "24"
       },
       {
         "day": "14",
         "title": "simpy による離散イベントシミュレーション ",
         "url": "http://sinhrks.hatenablog.com/entry/2014/12/14/005604",
-        "count": 0
+        "count": "30"
       }
     ]
   },
@@ -11764,7 +12509,7 @@
         "day": "8",
         "title": "Windows 7でQt5.4.0をビルドする。その１(Qtのインストール)",
         "url": "http://qiita.com/Chironian/items/2da05e9df4db9ba0d8ec",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "9",
@@ -11794,6 +12539,12 @@
         "day": "13",
         "title": "QGraphcsViewでBox2Dを表示する。",
         "url": "http://qiita.com/yasukikudan/items/930e31e5f814bb2313c0",
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "QMLでNode.jsのモジュールをrequireできるライブラリを作ってる",
+        "url": "http://qiita.com/seanchas_t/items/9864c05ba359af5701e0",
         "count": 0
       }
     ]
@@ -11894,7 +12645,7 @@
         "day": "1",
         "title": "これを読むとRSpecの裏側がどうやって動いているのか分かるかもしれないぜ",
         "url": "http://qiita.com/joker1007/items/641961963ff459125f31",
-        "count": "201"
+        "count": "202"
       },
       {
         "day": "2",
@@ -11918,13 +12669,13 @@
         "day": "5",
         "title": "より「普通に」書くためのTest Doubleライブラリ「crispy」 ",
         "url": "http://the.igreque.info/posts/2014-12-05-introduction-to-crispy.html",
-        "count": "14"
+        "count": "15"
       },
       {
         "day": "6",
         "title": "Ruby だけで経験できること ",
         "url": "http://komiyak.com/article/2014/12/06/you-can-experience-only-in-ruby.html",
-        "count": "58"
+        "count": "57"
       },
       {
         "day": "7",
@@ -11954,19 +12705,19 @@
         "day": "11",
         "title": "Rails開発で有用な便利Gem一覧：2014年版",
         "url": "http://qiita.com/shu_0115/items/b9dd17c01e1e6bd65e71",
-        "count": "227"
+        "count": "230"
       },
       {
         "day": "12",
         "title": "CRuby開発超入門",
         "url": "http://qiita.com/gogotanaka/items/5907470de92b59fa2557",
-        "count": "29"
+        "count": "34"
       },
       {
         "day": "13",
         "title": "Rubyが切り開く科学の未来 ",
         "url": "http://domitry.hatenablog.jp/entry/science_with_ruby",
-        "count": 0
+        "count": "139"
       }
     ]
   },
@@ -11977,7 +12728,7 @@
         "day": "1",
         "title": "結局Ruby on RailsとPHPってどっちが優れてるの？ ",
         "url": "http://blog.applest.net/article/20141201-ruby-on-rails-vs-php/",
-        "count": "254"
+        "count": "255"
       },
       {
         "day": "2",
@@ -12025,7 +12776,7 @@
         "day": "9",
         "title": "【Rails】RSpecと三種の神器でらくちんWeb APIテスト",
         "url": "http://qiita.com/izumin5210/items/de614b5b5b2c44486e87",
-        "count": "10"
+        "count": "11"
       },
       {
         "day": "10",
@@ -12043,7 +12794,13 @@
         "day": "12",
         "title": "Ruby on Rails の大掃除！ 3.2 → 4.1 にバージョンアップするの巻 ",
         "url": "http://d.hatena.ne.jp/komiyak/20141212/1418362163",
-        "count": "44"
+        "count": "47"
+      },
+      {
+        "day": "14",
+        "title": "friendly_idについて",
+        "url": "http://qiita.com/reizist/items/c4482a358e7b5d69c83f",
+        "count": "2"
       }
     ]
   },
@@ -12127,6 +12884,18 @@
         "title": "データローダー自由自在",
         "url": "http://qiita.com/yebihara/items/c955dc0d85385ff4c91a",
         "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "LightningAppBuilderについて ",
+        "url": "http://mino0123.github.io/2014/12/14/LightningAppBuilder/",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "空き会議室が10%増える会議室予約サービス「AITA」をハックチャレンジに出しました ",
+        "url": "http://atskimura.hatenablog.com/entry/2014/12/15/094631",
+        "count": 0
       }
     ]
   },
@@ -12161,7 +12930,7 @@
         "day": "5",
         "title": "Scala標準のFutureと並列コレクションの実行コンテキスト  ",
         "url": "http://moccosblue.blogspot.jp/2014/12/scalaexecutioncontext.html",
-        "count": "1"
+        "count": "2"
       },
       {
         "day": "6",
@@ -12197,19 +12966,31 @@
         "day": "11",
         "title": "trait からフィールドの型情報を取り出すためのライブラリを作った",
         "url": "http://qiita.com/jwhaco/items/dcee41943f8210fe18da",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "12",
         "title": "sbt でファイル変更をフックしてコンソールをクリアしつつコンパイルする ",
         "url": "http://tototoshi.hatenablog.com/entry/2014/12/12/235301",
-        "count": "2"
+        "count": "4"
       },
       {
         "day": "13",
         "title": "play2-auth で OpenID とか OAuth2 とか Twitter-OAuth とか ",
         "url": "https://gist.github.com/gakuzzzz/5f5f028b3711dbb13de4",
         "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "HaskellからScalaへリライト ",
+        "url": "http://qtamaki.hatenablog.com/entry/2014/12/14/063748",
+        "count": "1"
+      },
+      {
+        "day": "15",
+        "title": "Tumblr の Colossus の紹介 ",
+        "url": "http://okapies.hateblo.jp/entry/2014/12/15/034507",
+        "count": "4"
       }
     ]
   },
@@ -12281,6 +13062,18 @@
         "title": "JSON形式のデータをDrill ",
         "url": "http://kashigeru.hatenablog.com/entry/2014/12/13/001630",
         "count": "2"
+      },
+      {
+        "day": "14",
+        "title": "Impalaにファイルで投入したデータはいつから検索可能になるの？ ",
+        "url": "http://acro-engineer.hatenablog.com/entry/2014/12/14/113821",
+        "count": "15"
+      },
+      {
+        "day": "15",
+        "title": "Spark Streaming最初の一歩 ",
+        "url": "http://pochi.hatenablog.jp/entry/2014/12/15/010000",
+        "count": "6"
       }
     ]
   },
@@ -12363,7 +13156,7 @@
         "day": "13",
         "title": "Swift ハジメマシタ",
         "url": "http://qiita.com/neiraza/items/879ea578577ffb5d2f07",
-        "count": "2"
+        "count": "3"
       }
     ]
   },
@@ -12404,7 +13197,7 @@
         "day": "6",
         "title": "ドメインモデルのための型「Domain Kata」を使ってみました ",
         "url": "http://phpmentors.jp/post/104411486113/domain-kata-symfony-25",
-        "count": "27"
+        "count": "28"
       },
       {
         "day": "7",
@@ -12446,7 +13239,7 @@
         "day": "13",
         "title": "Symfony入門以前 ",
         "url": "http://tdak.hateblo.jp/entry/20141213/1418462893",
-        "count": "1"
+        "count": "2"
       },
       {
         "day": "14",
@@ -12529,13 +13322,25 @@
         "day": "12",
         "title": "『46期衆議院議員活動統計』を可視化してみた｜Tableau Software Tips&Viz Advent Calendar 2014 #12 #tableau ｜ Developers.IO ",
         "url": "http://dev.classmethod.jp/business/business-analytics/advent-calendar2014-tableau-visualization-of-lawmakers-activities/",
-        "count": "19"
+        "count": "22"
       },
       {
         "day": "13",
         "title": "『セット』について｜Tableau Software Tips&Viz Advent Calendar 2014 #13 #tableau ｜ Developers.IO ",
         "url": "http://dev.classmethod.jp/business/business-analytics/advent-calendar2014-tableau-sets/",
-        "count": "1"
+        "count": "2"
+      },
+      {
+        "day": "14",
+        "title": "パレート図の作成｜Tableau Software Tips&Viz Advent Calendar 2014 #14 #tableau ｜ Developers.IO ",
+        "url": "http://dev.classmethod.jp/business/business-analytics/advent-calendar2014-tableau-create-pareto-chart/",
+        "count": "2"
+      },
+      {
+        "day": "15",
+        "title": "項目要素のグルーピングについて｜Tableau Software Tips&Viz Advent Calendar 2014 #15 #tableau ｜ Developers.IO ",
+        "url": "http://dev.classmethod.jp/business/business-analytics/advent-calendar2014-tableau-item-grouping/",
+        "count": 0
       }
     ]
   },
@@ -12606,7 +13411,7 @@
         "day": "11",
         "title": "RackMiddlewareの始め方 ",
         "url": "http://www.techscore.com/blog/2014/12/11/rackmiddleware%E3%81%AE%E5%A7%8B%E3%82%81%E6%96%B9/",
-        "count": "2"
+        "count": "3"
       },
       {
         "day": "12",
@@ -12618,7 +13423,13 @@
         "day": "13",
         "title": "未定Ruby on Rails 4.2 rc2 が出たので Release ノートを読む ",
         "url": "http://www.techscore.com/blog/2014/12/13/rails-4-2-release-notes/",
-        "count": 0
+        "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "ITアーキテクトって何だろう その１ ",
+        "url": "http://www.techscore.com/blog/2014/12/14/it_architect_no1/",
+        "count": "5"
       }
     ]
   },
@@ -12702,6 +13513,18 @@
         "title": "Titaniumで初アプリを作った際に参考にしたサイト ",
         "url": "http://jaxx2104.info/titanium-app-ref",
         "count": "2"
+      },
+      {
+        "day": "14",
+        "title": "Titanium の Android で GCM(Push通知) Google Play Service版",
+        "url": "http://qiita.com/hntn/items/a83072e441ccf4fc715c",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "TitaniumとWordPressで（比較的）簡単SNSアプリ ",
+        "url": "http://se-suganuma.blogspot.jp/2014/12/titaniumwordprsssns.html",
+        "count": 0
       }
     ]
   },
@@ -12784,7 +13607,13 @@
         "day": "13",
         "title": "TypeScript での Chrome 拡張機能開発 Tips",
         "url": "http://qiita.com/pine613/items/0c89bf4ff0fdcafbc5ff",
-        "count": "1"
+        "count": "2"
+      },
+      {
+        "day": "14",
+        "title": "atom + typescript の調査で何の成果も得られませんでした",
+        "url": "http://qiita.com/varmil/items/0bf93cf460df85adb606",
+        "count": 0
       }
     ]
   },
@@ -12868,6 +13697,12 @@
         "title": "カメラエフェクトの決定版 Camera Filter Pack ～ OculusRiftホラーを作る その2  ",
         "url": "http://2vr.jp/2014/12/13/unityassets-camera-filter-pack/",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "いろんなシチュエーションで使える！高品質なゾンビモデル集 Mixamo Zombie Character Contest Pack～ OculusRiftホラーを作る その3 ",
+        "url": "http://2vr.jp/2014/12/15/unity-assets-mixamo-zombie-character-contest-pack/",
+        "count": 0
       }
     ]
   },
@@ -12914,7 +13749,7 @@
         "day": "8",
         "title": "犬製 Vim プラグイン紹介3本立て ",
         "url": "http://rhysd.hatenablog.com/entry/2014/12/08/082825",
-        "count": "30"
+        "count": "31"
       },
       {
         "day": "9",
@@ -12932,19 +13767,25 @@
         "day": "11",
         "title": "検索・置換を便利にするvim-abolish",
         "url": "http://qiita.com/yuku_t/items/77a3361ff4d27bda641e",
-        "count": "5"
+        "count": "6"
       },
       {
         "day": "12",
         "title": "Vimを体系的に学ぶつもりのない人のためのVim講座―Exコマンド編",
         "url": "http://qiita.com/okuramasafumi/items/5e4624cfc8379aec739c",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "13",
         "title": "スマートフォンでVimを操作するためにやっておいたほうがいいこと ",
         "url": "http://deris.hatenablog.jp/entry/2014/12/13/173125",
-        "count": "67"
+        "count": "163"
+      },
+      {
+        "day": "14",
+        "title": "incsearch.vimでVimの検索体験をリッチにする ",
+        "url": "http://haya14busa.com/enrich-your-search-experience-with-incsearch-vim/",
+        "count": "42"
       }
     ]
   },
@@ -13027,12 +13868,95 @@
         "day": "13",
         "title": "VisualStudioOnlineでPullRequest駆動開発 ",
         "url": "http://sadynitro.hatenablog.jp/entry/2014/12/13/162123",
-        "count": 0
+        "count": "1"
       },
       {
         "day": "14",
         "title": "VSで書いているコードをリアルタイムに共有できるサービスを作りました ",
         "url": "http://blog.bonprosoft.com/1135",
+        "count": "1"
+      }
+    ]
+  },
+  {
+    "themeTitle": "VVVV",
+    "entries": [
+      {
+        "day": "1",
+        "title": "ビジュアルプログラミング言語「vvvv」をはじめよう！",
+        "url": "http://qiita.com/yhy_jp/items/4b4d8841842c17943ca1",
+        "count": "14"
+      },
+      {
+        "day": "2",
+        "title": "MIDI入門です。 ",
+        "url": "http://design-ambience.com/wordpress/?p=590",
+        "count": 0
+      },
+      {
+        "day": "3",
+        "title": "vvvvのブログ記事の書き方！ ",
+        "url": "http://junky-inc.blogspot.jp/2014/12/advent-calendar-day3vvvvvlogvvvv.html",
+        "count": 0
+      },
+      {
+        "day": "4",
+        "title": "【vvvv Advvvvent Calendar 2014】めくるめくポストフェクト！Filterの使い方",
+        "url": "http://qiita.com/hurafula/items/0c1fa29b44dcccb7b8ab",
+        "count": 0
+      },
+      {
+        "day": "6",
+        "title": "vvvv では常に Spreads を意識しよう",
+        "url": "http://qiita.com/yhy_jp/items/d5604a15eef806a7d0d0",
+        "count": 0
+      },
+      {
+        "day": "7",
+        "title": "Kontrolleurとタブレットを使ってみる",
+        "url": "http://qiita.com/monshichi/items/199050a429f5fbe9ef7f",
+        "count": 0
+      },
+      {
+        "day": "8",
+        "title": "vvvv 講座動画の作り方",
+        "url": "http://qiita.com/yhy_jp/items/b6eaa066110838284c83",
+        "count": 0
+      },
+      {
+        "day": "9",
+        "title": "vvvvでOSCを使おうとしてみます。 ",
+        "url": "http://design-ambience.com/wordpress/?p=615&preview=true",
+        "count": 0
+      },
+      {
+        "day": "11",
+        "title": "DX11RendererからDX9Rendererに書き出したい",
+        "url": "http://qiita.com/Junky_Inc/items/4350be928f3a5de349f1",
+        "count": 0
+      },
+      {
+        "day": "12",
+        "title": "LeapMotionで遊ぶ！",
+        "url": "http://qiita.com/Junky_Inc/items/c7d87883b3571dfcfb63",
+        "count": 0
+      },
+      {
+        "day": "13",
+        "title": "vvvv でシェーダの入門をしよう！",
+        "url": "http://qiita.com/yhy_jp/items/db7ea5e0f98e8ff0820a",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "【vvvv Advvvvent Calendar 2014】vvvvでモーショングラフィックスぽい素材なんて作れるのか",
+        "url": "http://qiita.com/hurafula/items/eecb6dab04373a909729",
+        "count": 0
+      },
+      {
+        "day": "18",
+        "title": "そんなことよりVJしようぜ！！！",
+        "url": "http://qiita.com/onomuta/items/184211013400f7381eeb",
         "count": 0
       }
     ]
@@ -13086,7 +14010,7 @@
         "day": "8",
         "title": "Apple Watchで初めて登場した新UI「Glance」について ",
         "url": "http://blog.haranicle.net/glance/",
-        "count": "44"
+        "count": "45"
       },
       {
         "day": "9",
@@ -13116,7 +14040,13 @@
         "day": "13",
         "title": "WatchKitでWKInterfaceImageを使ってアニメーション ",
         "url": "http://blog.haranicle.net/wkinterfaceimage_animation/",
-        "count": "2"
+        "count": "4"
+      },
+      {
+        "day": "15",
+        "title": "WatchKit AppからiPhone上の親アプリケーション本体にデータを渡す",
+        "url": "http://qiita.com/hideji2/items/3a19a82598c5f69e81d1",
+        "count": 0
       }
     ]
   },
@@ -13205,7 +14135,13 @@
         "day": "14",
         "title": "Xamarin.Forms.Labs機能紹介",
         "url": "http://qiita.com/wilfrem/items/6ef1665ff00850d3d3ae",
-        "count": 0
+        "count": "2"
+      },
+      {
+        "day": "15",
+        "title": "MvvmCrossのiOS UniversalアプリでiPadで画面分割を作る",
+        "url": "http://qiita.com/iseebi/items/da3a5308eb00a7b2c4f2",
+        "count": "6"
       },
       {
         "day": "22",
@@ -13282,7 +14218,7 @@
         "day": "11",
         "title": "Bindingについて ",
         "url": "http://yone64.wordpress.com/2014/12/11/binding%E3%82%92%E6%95%B4%E7%90%86%E3%81%97%E3%82%88%E3%81%86/",
-        "count": "1"
+        "count": "2"
       },
       {
         "day": "12",
@@ -13295,6 +14231,18 @@
         "title": "スタイラス入力のジェスチャ認識 ",
         "url": "http://sakapon.wordpress.com/2014/12/13/stylus-gestures/",
         "count": "1"
+      },
+      {
+        "day": "14",
+        "title": "WinRTのScrollViewerで動かせる地図を作る ",
+        "url": "http://8thway.blogspot.jp/2014/12/winrt-scrollviewer-map.html",
+        "count": "2"
+      },
+      {
+        "day": "15",
+        "title": "ボタンをコントロールテンプレートで定義して画像をテンプレート外から指定する ",
+        "url": "http://icchu.jp/xaml-advent-calendar-2014/",
+        "count": 0
       }
     ]
   },
@@ -13338,6 +14286,12 @@
         "count": "3"
       },
       {
+        "day": "7",
+        "title": "Gugen2014のおうちハック作品を紹介 ",
+        "url": "http://yumulog.hatenablog.com/entry/2014/12/14/235738",
+        "count": "1"
+      },
+      {
         "day": "8",
         "title": "ハッカソンてなに？ ",
         "url": "http://kadecot.net/blog/2901/",
@@ -13353,7 +14307,7 @@
         "day": "10",
         "title": "おうちの次に長い時間を過ごす会社ハックネタですがいいでしょうか。 ",
         "url": "https://github.com/hemge/pit_stop_indicator_lamp",
-        "count": "1"
+        "count": "2"
       },
       {
         "day": "11",
@@ -13377,7 +14331,7 @@
         "day": "14",
         "title": "おうちでLED野菜工場を作ろうとしてこうなった ",
         "url": "http://tsujimotter.hatenablog.com/entry/led-vegetable-plant",
-        "count": "2"
+        "count": "3"
       }
     ]
   },
@@ -13461,6 +14415,18 @@
         "title": "gulp-changedプラグインで変更されたファイルだけを処理させる ",
         "url": "http://whiskers.nukos.kitchen/2014/12/13/gulp-changed.html",
         "count": 0
+      },
+      {
+        "day": "14",
+        "title": "gulp-cachedプラグインで変更されたSCSSファイルだけを処理させる ",
+        "url": "http://whiskers.nukos.kitchen/2014/12/14/gulp-cached.html",
+        "count": 0
+      },
+      {
+        "day": "15",
+        "title": "gulp-responsiveプラグインを使ったレスポンシブイメージ作成の自動化 ",
+        "url": "http://whiskers.nukos.kitchen/2014/12/15/gulp-responsive.html",
+        "count": 0
       }
     ]
   },
@@ -13519,13 +14485,13 @@
         "day": "9",
         "title": "意識の低い自動化",
         "url": "http://qiita.com/greenspa/items/fff535d2ae5da36e36fe",
-        "count": "29"
+        "count": "30"
       },
       {
         "day": "10",
         "title": "AndroidのBluetooth LEをAmazonで買えるBLEタグでお手軽に試す",
         "url": "http://qiita.com/binzume/items/1044ffd21cbb38b72bdb",
-        "count": "4"
+        "count": "5"
       },
       {
         "day": "11",
@@ -13543,13 +14509,19 @@
         "day": "13",
         "title": "今更だけどレガシーコード改善ガイドのガイド  ",
         "url": "http://erukiti.hatenablog.com/entry/2014/12/11/221415",
-        "count": "2"
+        "count": "4"
       },
       {
         "day": "14",
         "title": "関数型プログラミングとは結局何なのか ",
         "url": "http://blog.kokuyouwind.com/archives/808",
-        "count": 0
+        "count": "255"
+      },
+      {
+        "day": "15",
+        "title": "クリスマスに安心して一日中アニメを見るために録画鯖を作る技術 ",
+        "url": "http://tolarian-academy.net/christmas-anime-2014/",
+        "count": "1"
       }
     ]
   },
@@ -13566,13 +14538,13 @@
         "day": "9",
         "title": "iOS/Androidアプリ内課金の不正なレシートによる有料会員登録を防ぐ ",
         "url": "http://inside.pixiv.net/entry/2014/12/09/111310",
-        "count": "25"
+        "count": "26"
       },
       {
         "day": "10",
         "title": "pixivのサムネイル事情 ",
         "url": "http://inside.pixiv.net/entry/2014/12/10/222735",
-        "count": "386"
+        "count": "392"
       },
       {
         "day": "11",
@@ -13590,7 +14562,13 @@
         "day": "13",
         "title": "koaとsocket.ioをherokuで運用した話 ",
         "url": "http://inside.pixiv.net/entry/2014/12/13/201827",
-        "count": "1"
+        "count": "2"
+      },
+      {
+        "day": "14",
+        "title": "gate第二弾 〜流れるログが見たい〜 ",
+        "url": "http://inside.pixiv.net/entry/2014/12/14/151241",
+        "count": "20"
       }
     ]
   },
@@ -13601,7 +14579,7 @@
         "day": "1",
         "title": "React.jsとは",
         "url": "http://qiita.com/koba04/items/4d13caf5ab4507974bf0",
-        "count": "72"
+        "count": "73"
       },
       {
         "day": "2",
@@ -13667,6 +14645,18 @@
         "day": "12",
         "title": "React.jsがVirtualDOMを採用していて嬉しい事",
         "url": "http://qiita.com/koba04/items/fd6d9f24f9f6ce50e47e",
+        "count": 0
+      },
+      {
+        "day": "13",
+        "title": "Componentを拡張してみる",
+        "url": "http://qiita.com/koba04/items/c62b0a09ea7e63211029",
+        "count": 0
+      },
+      {
+        "day": "14",
+        "title": "React.jsのmixinについて",
+        "url": "http://qiita.com/koba04/items/55d28f0aba4d1f53e735",
         "count": 0
       }
     ]
