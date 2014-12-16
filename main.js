@@ -1,4 +1,7 @@
 $(function() {
+
+    var allDataLength = 20;
+
     $.getJSON("results.json", function(json) {
         var themes = _.map(json, function(theme, index, list) {
             var entryTitles = _.map(theme['entries'],
@@ -21,18 +24,34 @@ $(function() {
                 title: theme['themeTitle'],
                 hatebuCountSum: hatebuCountSum,
                 chartData: {
+            title: {
+                text: '日付ごとのはてブ数',
+                x: -20 //center
+            },
                     xAxis: {
                         tickWidth: 0,
                         gridLineWidth: 1,
-                        categories: entryTitles
+                        title: {
+                            text: '日付'
+                        },
+                        categories: _.range(1, 26)
+                    },
+                    yAxis: {
+                        title: {
+                            text: 'はてブ数'
+                        },
+                        plotLines: [{
+                            value: 0,
+                            width: 1,
+                            color: '#808080'
+                        }]
                     },
                     tooltip: {
                         shared: true,
                         useHTML: true,
-                        valueSuffix: 'はてブ',
                         formatter: function() {
-                            return '<b>' + this.y +
-                                '「' + this.x + '」</b>';
+                            return '<b>' + this.x +
+                                '日目 ' + this.y + 'はてブ</b>';
                         }
                     },
                     series: [{
@@ -43,7 +62,6 @@ $(function() {
             };
         });
 
-        var allDataLength = 20;
         themes = _.sortBy(themes, function(theme) {
             return theme['hatebuCountSum']
         }).reverse().slice(0, allDataLength);
@@ -69,6 +87,8 @@ $(function() {
                 x: -20 //center
             },
             xAxis: {
+                tickWidth: 0,
+                gridLineWidth: 1,
                 title: {
                     text: 'テーマ'
                 },
@@ -86,7 +106,6 @@ $(function() {
                     color: '#808080'
                 }]
             },
-            tooltip: {},
             legend: {
                 layout: 'vertical',
                 align: 'right',
