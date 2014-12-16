@@ -4,9 +4,9 @@
 <head>
     <title>アドすたっと</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
-    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
     <script src='//cdn.ractivejs.org/latest/ractive.min.js'></script>
     <script src='//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js'></script>
 
@@ -14,8 +14,8 @@
 
 <body>
     <h1>Qiita Advent Calendar 2014 はてブ数集計結果</h1>
-    <h2>各テーマ毎の合計</h2>
-    <div class="ct-chart id-all"></div>
+    <h2></h2>
+    <div id="all-chart"></div>
     <div id='container'></div>
     <script id='template' type='text/ractive'>
         {{#themes}}
@@ -23,89 +23,7 @@
         <div class="ct-chart id-{{id}}"></div>
         {{/themes}}
     </script>
-    <script>
-        $(function()
-        {
-            $.getJSON("results.json", function(json)
-            {
-                var themes = _.map(json, function(theme, index, list)
-                {
-                    var hatebuCounts = _.map(theme['entries'],
-                        function(entry, index, list)
-                        {
-                            return parseInt(entry['count'], 10);
-                        })
-
-                    var hatebuCountSum = _.reduce(hatebuCounts,
-                        function(memo, num)
-                        {
-                            return memo + num;
-                        }, 0)
-
-                    return {
-                        id: index,
-                        title: theme['themeTitle'],
-                        hatebuCountSum: hatebuCountSum,
-                        chartData:
-                        {
-                            labels: _.range(1, 26),
-                            series: [
-                            {
-                                name: "はてブ数",
-                                data: hatebuCounts
-                            }]
-                        }
-                    };
-                });
-
-                themes = _.sortBy(themes, function(theme)
-                {
-                    return theme['hatebuCountSum']
-                }).reverse();
-
-                // HTMLレンダリング
-                var ractive = new Ractive(
-                {
-                    el: 'container',
-                    template: '#template',
-                    data:
-                    {
-                        themes: themes
-                    }
-                });
-
-                // グラフの表示
-                var option = {
-                    low: 0,
-                    showArea: true
-                };
-
-                var allDataLength = 10;
-                var allData = {
-                    // labels: _.range(1, themes.length + 1),
-                    labels: _.map(themes.slice(0, allDataLength), function(theme)
-                    {
-                        return theme['title']
-                    }),
-                    series: [_.map(themes.slice(0, allDataLength), function(theme)
-                    {
-                        return theme['hatebuCountSum']
-                    })]
-                }
-
-                // all
-                new Chartist.Line('.ct-chart.id-all', allData, option);
-
-                // each
-                for (var i = 0; i < json.length; i++)
-                {
-                    new Chartist.Line('.ct-chart.id-' + themes[i]['id'],
-                        themes[i]['chartData'], option);
-                }
-
-            });
-        });
-    </script>
+    <script src="main.js"></script>
 </body>
 
 </html>
