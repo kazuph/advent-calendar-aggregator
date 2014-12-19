@@ -14,16 +14,19 @@
 
 <body>
     <h1>Qiita Advent Calendar 2014 はてブ数集計結果(たまに更新)</h1>
+    <p>
+        <a href="http://qiita.com/kazuph/items/9e9c83c5bb035a54c4cb">Qiitaの記事</a>
+    </p>
     <h2>ALL(ランキング)</h2>
     <div id="all-chart"></div>
     <div id='container'></div>
     <script id='template' type='text/ractive'>
         {{#themes:i}}
         <h2>{{i+1}}位 {{title}}(総はてブ数: {{hatebuCountSum}})</h2>
-        <div class="ct-chart id-{{id}}"></div>
+        <div class="ct-chart id-{{id}} "></div>
         {{/themes}}
     </script>
-    <script src="main.js"></script>
+    <script src="main.js "></script>
 </body>
 
 </html>
