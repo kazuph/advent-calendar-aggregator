@@ -99,8 +99,10 @@ async.waterfall(
     ], function(err, results) {
         console.log(results);
         fs.writeFile('results.json', JSON.stringify(results), function(err) {
-            console.log(err);
+            if (err) {
+                console.log(err);
+            }
+            console.log("DONE");
         });
-
     });
 
