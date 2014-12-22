@@ -1,6 +1,6 @@
 $(function() {
 
-    var allDataLength = 20;
+    var allDataLength = 30;
 
     $.getJSON("results.json", function(json) {
         var themes = _.map(json, function(theme, index, list) {
