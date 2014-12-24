@@ -47,6 +47,7 @@ function getEntryUrls(theme, callback) {
         }, function(entries) {
             callback(null, {
                 themeTitle: theme['title'],
+                themeCalendarUrl: theme['url'],
                 entries: entries
             });
         })
@@ -76,6 +77,7 @@ function insertHatebuCount(theme, callback) {
         function(err, entries) {
             callback(null, {
                 themeTitle: theme['themeTitle'],
+                themeCalendarUrl: theme['themeCalendarUrl'],
                 entries: entries
             });
         });

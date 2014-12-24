@@ -22,7 +22,7 @@
     <div id='container'></div>
     <script id='template' type='text/ractive'>
         {{#themes:i}}
-        <h2>{{i+1}}位 {{title}}(総はてブ数: {{hatebuCountSum}})</h2>
+        <h2><a href="{{url}}">{{i+1}}位 {{title}}(総はてブ数: {{hatebuCountSum}})</a></h2>
         <div class="ct-chart id-{{id}} "></div>
         {{/themes}}
     </script>

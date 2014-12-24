@@ -4,11 +4,6 @@ $(function() {
 
     $.getJSON("results.json", function(json) {
         var themes = _.map(json, function(theme, index, list) {
-            var entryTitles = _.map(theme['entries'],
-                function(entry, index, list) {
-                    return entry['title'];
-                })
-
             var hatebuCounts = _.map(theme['entries'],
                 function(entry, index, list) {
                     return parseInt(entry['count'], 10);
@@ -19,9 +14,12 @@ $(function() {
                     return memo + num;
                 }, 0)
 
+            var baseUrl = 'http://qiita.com';
+
             return {
                 id: index,
                 title: theme['themeTitle'],
+                url: baseUrl + theme['themeCalendarUrl'],
                 hatebuCountSum: hatebuCountSum,
                 chartData: {
             title: {
@@ -65,6 +63,8 @@ $(function() {
         themes = _.sortBy(themes, function(theme) {
             return theme['hatebuCountSum']
         }).reverse().slice(0, allDataLength);
+
+        console.log(themes);
 
         // HTMLレンダリング
         var ractive = new Ractive({
