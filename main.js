@@ -22,10 +22,10 @@ $(function() {
                 url: baseUrl + theme['themeCalendarUrl'],
                 hatebuCountSum: hatebuCountSum,
                 chartData: {
-            title: {
-                text: '日付ごとのはてブ数',
-                x: -20 //center
-            },
+                    title: {
+                        text: '日付ごとのはてブ数',
+                        x: -20 //center
+                    },
                     xAxis: {
                         tickWidth: 0,
                         gridLineWidth: 1,
@@ -62,24 +62,33 @@ $(function() {
 
         themes = _.sortBy(themes, function(theme) {
             return theme['hatebuCountSum']
-        }).reverse().slice(0, allDataLength);
-
-        console.log(themes);
+        }).reverse();
 
         // HTMLレンダリング
-        var ractive = new Ractive({
-            el: 'container',
-            template: '#template',
+        new Ractive({
+            el: 'graphs',
+            template: '#ranking-graph',
             data: {
-                themes: themes
+                themes: themes.slice(0, allDataLength)
             }
         });
+
+        new Ractive({
+            el: 'ranking',
+            template: '#ranking-list',
+            data: {
+                themes: themes.slice(30, -1)
+            }
+        });
+
 
         // グラフの表示
         var option = {
             low: 0,
             showArea: true
         };
+
+        themes = themes.slice(0, allDataLength);
 
         $('#all-chart').highcharts({
             title: {
