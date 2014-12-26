@@ -54,19 +54,23 @@ function getEntryUrls(theme, callback) {
 }
 
 function getHatebuCount(entry, callback) {
-    rest.get(hatebuApiUrl, {
-        query: {
-            'url': entry['url']
-        }
-    }).on('complete', function(data, response) {
-        var count = data ? data : 0;
-        callback(null, {
-            day: entry['day'],
-            title: entry['text'],
-            url: entry['url'],
-            count: count
+    console.log(entry);
+    setTimeout(function() {
+        rest.get(hatebuApiUrl, {
+            query: {
+                'url': entry['url']
+            }
+        }).on('complete', function(data, response) {
+            var count = data ? data : 0;
+            console.log(count);
+            callback(null, {
+                day: entry['day'],
+                title: entry['text'],
+                url: entry['url'],
+                count: count
+            });
         });
-    });
+    }, 200);
 }
 
 function insertHatebuCount(theme, callback) {
@@ -107,4 +111,3 @@ async.waterfall(
             console.log("DONE");
         });
     });
-
