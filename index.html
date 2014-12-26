@@ -19,11 +19,17 @@
     </p>
     <h2>ALL(ランキング)</h2>
     <div id="all-chart"></div>
-    <div id='container'></div>
-    <script id='template' type='text/ractive'>
+    <div id='graphs'></div>
+    <div id='ranking'></div>
+    <script id='ranking-graph' type='text/ractive'>
         {{#themes:i}}
         <h2><a href="{{url}}">{{i+1}}位 {{title}}(総はてブ数: {{hatebuCountSum}})</a></h2>
         <div class="ct-chart id-{{id}} "></div>
+        {{/themes}}
+    </script>
+    <script id='ranking-list' type='text/ractive'>
+        {{#themes:i}}
+        <h2><a href="{{url}}">{{i+31}}位 {{title}}(総はてブ数: {{hatebuCountSum}})</a></h2>
         {{/themes}}
     </script>
     <script src="main.js "></script>
