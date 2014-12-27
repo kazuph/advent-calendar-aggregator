@@ -34,7 +34,7 @@ $(function() {
                 type: 'bar'
             },
             title: {
-                text: '各テーマ毎のはてブ数の合計',
+                text: '各テーマ毎のはてブ数の合計(完走○、未完✕、バークリックで遷移)',
             },
             xAxis: {
                 tickWidth: 0,
@@ -44,7 +44,7 @@ $(function() {
                     text: 'テーマ'
                 },
                 categories: _.map(themes, function(theme, index) {
-                    return (index + 1) + "位 " + theme['title']
+                    return (theme['entryCount'] === 25 ? "○" : "✕") + (index + 1) + "位 " + theme['title']
                 })
             },
             yAxis: {
@@ -57,12 +57,25 @@ $(function() {
                     dataLabels: {
                         enabled: true
                     }
+                },
+                series: {
+                    cursor: 'pointer',
+                    point: {
+                        events: {
+                            click: function() {
+                                window.open().location.href = this.options.url;
+                            }
+                        }
+                    }
                 }
             },
             series: [{
                 name: 'はてブ数合計',
                 data: _.map(themes, function(theme) {
-                    return theme['hatebuCountSum']
+                    return {
+                        y: theme['hatebuCountSum'],
+                        url: theme['url']
+                    }
                 })
             }]
         });
