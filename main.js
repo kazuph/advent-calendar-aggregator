@@ -4,11 +4,13 @@ $(function() {
     var qiitaUrl = 'http://qiita.com';
 
     $.getJSON("results.json", function(json) {
+
+        // jsonを取得して加工
         var themes = _.map(json, function(theme, index, list) {
             var hatebuCountSum = _.reduce(_.map(theme['entries'],
-                function(entry, index, list) {
-                    return parseInt(entry['count'], 10);
-                }),
+                    function(entry, index, list) {
+                        return parseInt(entry['count'], 10);
+                    }),
                 function(memo, num) {
                     return memo + num;
                 }, 0)
@@ -26,15 +28,6 @@ $(function() {
             return theme['hatebuCountSum']
         }).reverse();
 
-        // ランキングリスト表示
-        new Ractive({
-            el: 'ranking-list',
-            template: '#ranking-list-tmpl',
-            data: {
-                themes: themes
-            }
-        });
-
         // グラフの表示
         $('#all-chart').highcharts({
             chart: {
@@ -50,13 +43,20 @@ $(function() {
                 title: {
                     text: 'テーマ'
                 },
-                categories: _.map(themes, function(theme) {
-                    return theme['title']
+                categories: _.map(themes, function(theme, index) {
+                    return (index + 1) + "位 " + theme['title']
                 })
             },
             yAxis: {
                 title: {
                     text: 'はてブ数合計'
+                }
+            },
+            plotOptions: {
+                bar: {
+                    dataLabels: {
+                        enabled: true
+                    }
                 }
             },
             series: [{
@@ -66,5 +66,15 @@ $(function() {
                 })
             }]
         });
+
+        // ランキングリスト表示
+        new Ractive({
+            el: 'ranking-list',
+            template: '#ranking-list-tmpl',
+            data: {
+                themes: themes
+            }
+        });
+
     });
 });
