@@ -5,8 +5,8 @@
     <title>アドすたっと</title>
     <meta charset="UTF-8">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://code.highcharts.com/highcharts.js"></script>
-    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script src="//code.highcharts.com/highcharts.js"></script>
+    <script src="//code.highcharts.com/modules/exporting.js"></script>
     <script src='//cdn.ractivejs.org/latest/ractive.min.js'></script>
     <script src='//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js'></script>
 
@@ -16,20 +16,21 @@
     <h1>Qiita Advent Calendar 2014 はてブ数集計結果(たまに更新)</h1>
     <p>
         <a href="http://qiita.com/kazuph/items/9e9c83c5bb035a54c4cb">Qiitaの記事</a>
+        <a href="https://github.com/kazuph/advent-calendar-aggregator">github</a>
     </p>
-    <h2>ALL(ランキング)</h2>
+    <h2><a href="http://qiita.com/advent-calendar/2014">ALL(ランキング)</a></h2>
     <div id="all-chart"></div>
     <div id='graphs'></div>
     <div id='ranking'></div>
     <script id='ranking-graph' type='text/ractive'>
         {{#themes:i}}
-        <h2><a href="{{url}}">{{i+1}}位 {{title}}(総はてブ数: {{hatebuCountSum}})</a></h2>
+        <h2><a href="{{url}}">{{i+1}}位 {{title}}</a> はてブ数合計: {{hatebuCountSum}}, 記事数: {{entryCount}}{{entryCount === 25 ? " 完走！" : ""}}</h2>
         <div class="ct-chart id-{{id}} "></div>
         {{/themes}}
     </script>
     <script id='ranking-list' type='text/ractive'>
         {{#themes:i}}
-        <h2><a href="{{url}}">{{i+31}}位 {{title}}(総はてブ数: {{hatebuCountSum}})</a></h2>
+        <h2><a href="{{url}}">{{i+1}}位 {{title}}</a> はてブ数合計: {{hatebuCountSum}}, 記事数: {{entryCount}}{{entryCount === 25 ? " 完走！" : ""}}</h2>
         {{/themes}}
     </script>
     <script src="main.js "></script>

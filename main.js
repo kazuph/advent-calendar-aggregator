@@ -21,10 +21,13 @@ $(function() {
                 title: theme['themeTitle'],
                 url: baseUrl + theme['themeCalendarUrl'],
                 hatebuCountSum: hatebuCountSum,
+                entryCount: theme['entries'].length,
                 chartData: {
+                    chart: {
+                        type: 'bar'
+                    },
                     title: {
                         text: '日付ごとのはてブ数',
-                        x: -20 //center
                     },
                     xAxis: {
                         tickWidth: 0,
@@ -38,11 +41,6 @@ $(function() {
                         title: {
                             text: 'はてブ数'
                         },
-                        plotLines: [{
-                            value: 0,
-                            width: 1,
-                            color: '#808080'
-                        }]
                     },
                     tooltip: {
                         shared: true,
@@ -64,7 +62,6 @@ $(function() {
             return theme['hatebuCountSum']
         }).reverse();
 
-        // HTMLレンダリング
         new Ractive({
             el: 'graphs',
             template: '#ranking-graph',
@@ -81,19 +78,14 @@ $(function() {
             }
         });
 
-
         // グラフの表示
-        var option = {
-            low: 0,
-            showArea: true
-        };
-
         themes = themes.slice(0, allDataLength);
-
         $('#all-chart').highcharts({
+            chart: {
+                type: 'bar'
+            },
             title: {
                 text: '各テーマ毎のはてブ数の合計',
-                x: -20 //center
             },
             xAxis: {
                 tickWidth: 0,
@@ -108,18 +100,7 @@ $(function() {
             yAxis: {
                 title: {
                     text: 'はてブ数合計'
-                },
-                plotLines: [{
-                    value: 0,
-                    width: 1,
-                    color: '#808080'
-                }]
-            },
-            legend: {
-                layout: 'vertical',
-                align: 'right',
-                verticalAlign: 'middle',
-                borderWidth: 0
+                }
             },
             series: [{
                 name: 'はてブ数合計',
