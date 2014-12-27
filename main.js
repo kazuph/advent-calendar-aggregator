@@ -1,60 +1,24 @@
 $(function() {
 
-    var allDataLength = 30;
+    var allDataLength = 20;
+    var qiitaUrl = 'http://qiita.com';
 
     $.getJSON("results.json", function(json) {
         var themes = _.map(json, function(theme, index, list) {
-            var hatebuCounts = _.map(theme['entries'],
+            var hatebuCountSum = _.reduce(_.map(theme['entries'],
                 function(entry, index, list) {
                     return parseInt(entry['count'], 10);
-                })
-
-            var hatebuCountSum = _.reduce(hatebuCounts,
+                }),
                 function(memo, num) {
                     return memo + num;
                 }, 0)
 
-            var baseUrl = 'http://qiita.com';
-
             return {
                 id: index,
                 title: theme['themeTitle'],
-                url: baseUrl + theme['themeCalendarUrl'],
+                url: qiitaUrl + theme['themeCalendarUrl'],
                 hatebuCountSum: hatebuCountSum,
-                entryCount: theme['entries'].length,
-                chartData: {
-                    chart: {
-                        type: 'bar'
-                    },
-                    title: {
-                        text: '日付ごとのはてブ数',
-                    },
-                    xAxis: {
-                        tickWidth: 0,
-                        gridLineWidth: 1,
-                        title: {
-                            text: '日付'
-                        },
-                        categories: _.range(1, 26)
-                    },
-                    yAxis: {
-                        title: {
-                            text: 'はてブ数'
-                        },
-                    },
-                    tooltip: {
-                        shared: true,
-                        useHTML: true,
-                        formatter: function() {
-                            return '<b>' + this.x +
-                                '日目 ' + this.y + 'はてブ</b>';
-                        }
-                    },
-                    series: [{
-                        name: "はてブ数",
-                        data: hatebuCounts
-                    }]
-                }
+                entryCount: theme['entries'].length
             };
         });
 
@@ -62,24 +26,16 @@ $(function() {
             return theme['hatebuCountSum']
         }).reverse();
 
+        // ランキングリスト表示
         new Ractive({
-            el: 'graphs',
-            template: '#ranking-graph',
+            el: 'ranking-list',
+            template: '#ranking-list-tmpl',
             data: {
-                themes: themes.slice(0, allDataLength)
-            }
-        });
-
-        new Ractive({
-            el: 'ranking',
-            template: '#ranking-list',
-            data: {
-                themes: themes.slice(30, -1)
+                themes: themes
             }
         });
 
         // グラフの表示
-        themes = themes.slice(0, allDataLength);
         $('#all-chart').highcharts({
             chart: {
                 type: 'bar'
@@ -90,6 +46,7 @@ $(function() {
             xAxis: {
                 tickWidth: 0,
                 gridLineWidth: 1,
+                maxTickInterval: 1,
                 title: {
                     text: 'テーマ'
                 },
@@ -109,9 +66,5 @@ $(function() {
                 })
             }]
         });
-        for (var i = 0; i < themes.length; i++) {
-            $('.ct-chart.id-' + themes[i]['id']).highcharts(themes[i]['chartData']);
-        }
-
     });
 });
