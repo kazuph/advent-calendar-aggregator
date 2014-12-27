@@ -29,8 +29,8 @@
     <script id='ranking-list-tmpl' type='text/ractive'>
         {{#themes:i}}
         <h2>
-            <a href="{{url}}">{{i+1}}位 {{title}}</a>
-            はてブ数合計: {{hatebuCountSum}}, 記事数: {{entryCount}}{{entryCount === 25 ? " 完走！" : ""}}
+            <a href="{{url}}">{{entryCount === 25 ? "【完走○】" : "【完走✕】"}}{{i+1}}位 {{title}}</a>
+            はてブ数合計: {{hatebuCountSum}}, 記事数: {{entryCount}}
         </h2>
         {{/themes}}
     </script>
