@@ -3,6 +3,7 @@ var scraperjs = require('scraperjs');
 var async = require('async');
 var rest = require('restler');
 var fs = require('fs');
+var Url = require('url');
 
 var baseUrl = 'http://qiita.com';
 var hatebuApiUrl = 'http://api.b.st-hatena.com/entry.count';
@@ -54,22 +55,20 @@ function getEntryUrls(theme, callback) {
 }
 
 function getHatebuCount(entry, callback) {
-    setTimeout(function() {
-        rest.get(hatebuApiUrl, {
-            query: {
-                'url': entry['url']
-            }
-        }).on('complete', function(data, response) {
-            var count = data ? data : 0;
-            console.log(entry['day'] + "日目 " + entry['text'] + ": " + count);
-            callback(null, {
-                day: entry['day'],
-                title: entry['text'],
-                url: entry['url'],
-                count: count
-            });
+    rest.get(hatebuApiUrl, {
+        query: {
+            'url': entry['url']
+        }
+    }).on('complete', function(data, response) {
+        var count = data ? data : 0;
+        console.log(entry['day'] + "日目 " + entry['text'] + ": " + count);
+        callback(null, {
+            day: entry['day'],
+            title: entry['text'],
+            url: entry['url'],
+            hatebu: count
         });
-    }, 200);
+    });
 }
 
 function insertHatebuCount(theme, callback) {
@@ -77,6 +76,39 @@ function insertHatebuCount(theme, callback) {
     var entries = theme['entries'];
     async.map(entries,
         getHatebuCount,
+        function(err, entries) {
+            callback(null, {
+                themeTitle: theme['themeTitle'],
+                themeCalendarUrl: theme['themeCalendarUrl'],
+                entries: entries
+            });
+        });
+}
+
+// curl https://qiita.com/api/v1/items/ed0957dc45ecdcf3963c | jq ".stock_count"
+function getQiitaCount(entry, callback) {
+    var url = entry['url'];
+    if (Url.parse(url).host === 'qiita.com') {
+        var uuid = url.split(/\//)[5];
+        rest.get('https://qiita.com/api/v1/items/' + uuid).on('complete', function(data, response) {
+            var count = data.stock_count ? data.stock_count : 0;
+            console.log(entry['day'] + "日目 " + entry['text'] + ": " + count);
+            callback(null, {
+                day: entry['day'],
+                title: entry['text'],
+                url: entry['url'],
+                hatebu: entry['hatebu'],
+                qiita: count
+            });
+        });
+    }
+}
+
+function insertQiitaCount(theme, callback) {
+    console.log(theme['themeTitle']);
+    var entries = theme['entries'];
+    async.map(entries,
+        getQiitaCount,
         function(err, entries) {
             callback(null, {
                 themeTitle: theme['themeTitle'],
@@ -100,6 +132,9 @@ async.waterfall(
         },
         function(results, callback) {
             asyncMap(results, insertHatebuCount, callback);
+        },
+        function(results, callback) {
+            asyncMap(results, insertQiitaCount, callback);
         }
     ], function(err, results) {
         console.log(results);
