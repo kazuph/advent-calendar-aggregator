@@ -54,7 +54,6 @@ function getEntryUrls(theme, callback) {
 }
 
 function getHatebuCount(entry, callback) {
-    console.log(entry);
     setTimeout(function() {
         rest.get(hatebuApiUrl, {
             query: {
@@ -62,7 +61,7 @@ function getHatebuCount(entry, callback) {
             }
         }).on('complete', function(data, response) {
             var count = data ? data : 0;
-            console.log(count);
+            console.log(entry['day'] + "日目 " + entry['text'] + ": " + count);
             callback(null, {
                 day: entry['day'],
                 title: entry['text'],

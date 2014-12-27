@@ -9,6 +9,11 @@
     <script src="//code.highcharts.com/modules/exporting.js"></script>
     <script src='//cdn.ractivejs.org/latest/ractive.min.js'></script>
     <script src='//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js'></script>
+    <style type="text/css">
+        #all-chart {
+            height: 4500px;
+        }
+    </style>
 
 </head>
 
@@ -20,20 +25,17 @@
     </p>
     <h2><a href="http://qiita.com/advent-calendar/2014">ALL(ランキング)</a></h2>
     <div id="all-chart"></div>
-    <div id='graphs'></div>
-    <div id='ranking'></div>
-    <script id='ranking-graph' type='text/ractive'>
+    <div id='ranking-list'></div>
+    <script id='ranking-list-tmpl' type='text/ractive'>
         {{#themes:i}}
-        <h2><a href="{{url}}">{{i+1}}位 {{title}}</a> はてブ数合計: {{hatebuCountSum}}, 記事数: {{entryCount}}{{entryCount === 25 ? " 完走！" : ""}}</h2>
-        <div class="ct-chart id-{{id}} "></div>
+        <h2>
+            <a href="{{url}}">{{i+1}}位 {{title}}</a>
+            はてブ数合計: {{hatebuCountSum}}, 記事数: {{entryCount}}{{entryCount === 25 ? " 完走！" : ""}}
+        </h2>
         {{/themes}}
     </script>
-    <script id='ranking-list' type='text/ractive'>
-        {{#themes:i}}
-        <h2><a href="{{url}}">{{i+1}}位 {{title}}</a> はてブ数合計: {{hatebuCountSum}}, 記事数: {{entryCount}}{{entryCount === 25 ? " 完走！" : ""}}</h2>
-        {{/themes}}
-    </script>
-    <script src="main.js "></script>
+    <script src="main.js"></script>
+    <!-- <script src="hcDarkTheme.js"></script> -->
 </body>
 
 </html>
