@@ -1,6 +1,5 @@
 $(function() {
 
-    var allDataLength = 20;
     var qiitaUrl = 'http://qiita.com';
 
     $.getJSON("results.json", function(json) {
@@ -86,6 +85,23 @@ $(function() {
             template: '#ranking-list-tmpl',
             data: {
                 themes: themes
+            }
+        });
+
+        var sumHatebu = _.reduce(themes, function(memo, theme) {
+            return memo + theme['hatebuCountSum'];
+        }, 0);
+        var sumEntry = _.reduce(themes, function(memo, theme) {
+            return memo + theme['entryCount'];
+        }, 0);
+
+        // 合計を表示
+        new Ractive({
+            el: 'sum',
+            template: '#sum-tmpl',
+            data: {
+                sumHatebu: sumHatebu,
+                sumEntry: sumEntry
             }
         });
 
