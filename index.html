@@ -19,6 +19,7 @@
 
 <body>
     <h1>Qiita Advent Calendar 2014 はてブ数集計結果(たまに更新)</h1>
+    <div id='sum'></div>
     <p>
         <a href="http://qiita.com/kazuph/items/9e9c83c5bb035a54c4cb">Qiitaの記事</a>
         <a href="https://github.com/kazuph/advent-calendar-aggregator">github</a>
@@ -26,6 +27,9 @@
     <h2><a href="http://qiita.com/advent-calendar/2014">ALL(ランキング)</a></h2>
     <div id="all-chart"></div>
     <div id='ranking-list'></div>
+    <script id='sum-tmpl' type='text/ractive'>
+      <h2>総はてブ数: {{sumHatebu}}, 総記事数: {{sumEntry}}</h2>
+    </script>
     <script id='ranking-list-tmpl' type='text/ractive'>
         {{#themes:i}}
         <h2>

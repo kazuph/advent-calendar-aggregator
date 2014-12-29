@@ -60,14 +60,19 @@ function getHatebuCount(entry, callback) {
                 'url': entry['url']
             }
         }).on('complete', function(data, response) {
-            var count = data ? data : 0;
-            console.log(entry['day'] + "日目 " + entry['text'] + ": " + count);
-            callback(null, {
-                day: entry['day'],
-                title: entry['text'],
-                url: entry['url'],
-                count: count
-            });
+            if (data instanceof Error) {
+                console.log('Error:', data.message);
+                this.retry(5000);
+            } else {
+                var count = data ? data : 0;
+                // console.log(entry['day'] + "日目 " + entry['text'] + ": " + count);
+                callback(null, {
+                    day: entry['day'],
+                    title: entry['text'],
+                    url: entry['url'],
+                    count: count
+                });
+            }
         });
     }, 200);
 }
